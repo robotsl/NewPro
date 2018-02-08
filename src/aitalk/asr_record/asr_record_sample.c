@@ -64,6 +64,10 @@ const char* get_audio_file(void)
 	return NULL;
 }
 
+
+//TODO*************************************************************************************
+//*****************************************************************************************
+//*****************************************************************************************
 int build_grm_cb(int ecode, const char *info, void *udata)
 {
 	UserData *grm_data = (UserData *)udata;
@@ -168,7 +172,8 @@ int update_lexicon(UserData *udata)
 
 
 
-
+//***************************************************TODO*************************************************************************************
+//SHOWRESULT
 static void show_result(char *string, char is_over)
 {
 	printf("\r  lxblxblxb Result: [ %s ] lxblxblxblxb", string);
@@ -179,6 +184,9 @@ static void show_result(char *string, char is_over)
 static char *g_result = NULL;
 static unsigned int g_buffersize = BUFFER_SIZE;
 
+
+//********************************************TODO*************************************************************************************
+//获取语法结果
 void on_result(const char *result, char is_last)
 {
 	if (result) {
@@ -194,7 +202,9 @@ void on_result(const char *result, char is_last)
 			}
 		}
 		strncat(g_result, result, size);
+		strcat(g_result,'\0');
 		show_result(g_result, is_last);
+		//return g_result;
 	}
 }
 void on_speech_begin()
@@ -340,8 +350,8 @@ static void demo_mic(const char* session_begin_params)
 	if (errcode) {
 		printf("start listen failed %d\n", errcode);
 	}
-	/* demo 15 seconds recording */
-	while(i++ < 15)
+	/* demo 5 seconds recording */
+	while(i++ < 5)
 		sleep(1);
 	errcode = sr_stop_listening(&iat);
 	if (errcode) {
@@ -368,7 +378,7 @@ int run_asr(UserData *udata)
 	int rec_status                     = MSP_REC_STATUS_INCOMPLETE;
 	int rss_status                     = MSP_REC_STATUS_INCOMPLETE;
 	int errcode                        = -1;
-	int aud_src                        = 0;
+	int aud_src                        = 1;
 	//离线语法识别参数设置
 	snprintf(asr_params, MAX_PARAMS_LEN - 1, 
 		"engine_type = local, \
@@ -380,14 +390,7 @@ int run_asr(UserData *udata)
 		GRM_BUILD_PATH,
 		udata->grammar_id
 		);
-	printf("音频数据在哪? \n0: 从文件读入\n1:从MIC说话\n");
-	scanf("%d", &aud_src);
-	if(aud_src != 0) {
-		demo_mic(asr_params);
-	} else {
-		asr_audiof = get_audio_file();
-		demo_file(asr_audiof, asr_params); 
-	}
+	demo_mic(asr_params);
 	return 0;
 }
 
