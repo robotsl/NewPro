@@ -4,7 +4,7 @@ int main(void)
 {  
     int ret = 0;
     wiringPiSetup();        //wiringPi库初始化  
-    pinMode(1, INPUT);     //设置0口为输出模式  
+    pinMode(1, INPUT);     //设置1口为输出模式  
     pinMode(0, OUTPUT);     //设置0口为输出模式
     for(;;)
     { 

@@ -22,7 +22,7 @@
 const char * ASR_RES_PATH        = "fo|res/asr/common.jet"; //离线语法识别资源路径
 const char * GRM_BUILD_PATH      = "res/asr/GrmBuilld"; //构建离线语法识别网络生成数据保存路径
 const char * GRM_FILE            = "call.bnf"; //构建离线识别语法网络所用的语法文件
-const char * LEX_NAME            = "contact"; //更新离线识别语法的contact槽（语法文件为此示例中使用的call.bnf）
+const char * LEX_NAME            = "contact"; //新离线识别语法的contact槽（语法文件为此示例中使用的call.bnf）
 
 typedef struct _UserData {
 	int     build_fini; //标识语法构建是否完成

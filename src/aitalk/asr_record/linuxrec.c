@@ -17,7 +17,6 @@
 #include "linuxrec.h"
 
 #define DBG_ON 1
-
 #if DBG_ON
 #define dbg  printf
 #else

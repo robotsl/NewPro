@@ -1,17 +1,4 @@
-#include <wiringPi.h>  
-#include <stdio.h>  
-#include <stdlib.h>  
-  
-typedef unsigned char uint8;  
-typedef unsigned int  uint16;  
-typedef unsigned long uint32;  
-  
-#define HIGH_TIME 32  
-  
-int pinNumber =1;  //use gpio1 to read data  
-uint32 databuf;  
-   
-   
+#include "dht11_1.h"
   
 uint8 readSensorData(void)  
 {  
@@ -61,12 +48,10 @@ uint8 readSensorData(void)
          }  
 }  
    
-int main (void)  
+DHT *readData (DHT *dht)  
 {  
-  
-  printf("Use GPIO1 to read data!\n");  
-  
-  if (-1 == wiringPiSetup()) {  
+  if (-1 == wiringPiSetup()) 
+  {  
     printf("Setup wiringPi failed!");  
     return 1;  
   }  
@@ -74,23 +59,22 @@ int main (void)
   pinMode(pinNumber, OUTPUT); // set mode to output  
   digitalWrite(pinNumber, 1); // output a high level   
   
-  printf("Enter OS-------\n");  
-  while(1) {  
     pinMode(pinNumber,OUTPUT); // set mode to output  
     digitalWrite(pinNumber, 1); // output a high level   
     delay(3000);  
     if(readSensorData())  
     {  
-       printf("Congratulations ! Sensor data read ok!\n");  
-       printf("RH:%d.%d\n",(databuf>>24)&0xff,(databuf>>16)&0xff);   
-       printf("TMP:%d.%d\n",(databuf>>8)&0xff,databuf&0xff);  
+		dht.RH = (databuf>>24)&0xff + 0.1 * (databuf>>16)&0xff)；
+		dht.TMP = (databuf>>8)&0xff + 0.1 * databuf&0xff;
+       //printf("Congratulations ! Sensor data read ok!\n");  
+       //printf("RH:%d.%d\n",(databuf>>24)&0xff,(databuf>>16)&0xff);   
+       //printf("TMP:%d.%d\n",(databuf>>8)&0xff,databuf&0xff);  
        databuf=0;  
      }  
     else  
      {  
         printf("Sorry! Sensor dosent ans!\n");  
        databuf=0;  
-      }  
-  }  
-  return 0;  
+      }    
+  return &dht;  
 }  
