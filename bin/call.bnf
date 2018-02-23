@@ -1,20 +1,12 @@
 ﻿#BNF+IAT 1.0 UTF-8;
 !grammar call;
 !slot <want>;
-!slot <dialpre>;
-!slot <dialsuf>;
+!slot <dealpre>;
 !slot <contact>;
 
-!start <callstart>;
-<callstart>:[<want>]<dial>;
+!start <listenstart>;
+<listenstart>:[<want>]<deal>;
 <want>:我想|我要|请|帮我|我想要|请帮我;
-<dial>:<dialpre><contact>[<dialsuf>];
-<dialpre>:打电话给!id(10001)|打给!id(10001)|拨打!id(10001)|拨打电话给!id(10001)|呼叫!id(10001)|
-打一个电话给!id(10001)|打个电话给!id(10001)|给|拨通!id(10001)|
-接通!id(10001)|呼叫!id(10001)|呼叫给!id(10001)|打!id(10001);
-<dialsuf>:打电话!id(10001)|打个电话!id(10001)|打一个电话!id(10001)|
-拨打电话!id(10001)|拨电话!id(10001)|拨个电话!id(10001)|呼个电话!id(10001)|
-的电话!id(10001)|的号码!id(10001)|的手机!id(10001)|
-的办公电话!id(10001)|的移动号码!id(10001)|的联通号码!id(10001)|
-的电信号码!id(10001)|客服电话!id(10001);
-<contact>:丁伟;
+<deal>:<dealpre>[<contact>];
+<dealpre>:打开!id(10001)|关闭!id(10001)|上传!id(10002)|注销!id(10003)；
+<contact>:红灯!id(10001)|黄灯!id(10001)|绿灯!id(10001)|温湿度!id(10002)|音响!id(10001)|;
