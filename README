@@ -1,0 +1,78 @@
+NewPro
+    ©¦  README
+    ©¦  
+    ©À©¤bin
+    ©¦  ©¦  .gitignore
+    ©¦  ©¦  call.bnf
+    ©¦  ©¦  
+    ©¦  ©À©¤msc
+    ©¦  ©¦  ©¦  grm_lex.log
+    ©¦  ©¦  ©¦  isr.log
+    ©¦  ©¦  ©¦  isr_local.log
+    ©¦  ©¦  ©¦  lgi.log
+    ©¦  ©¦  ©¦  msc.cfg
+    ©¦  ©¦  ©¦  msc.log
+    ©¦  ©¦  ©¦  waiter.log
+    ©¦  ©¦  ©¦  
+    ©¦  ©¦  ©À©¤2340d471501dd45d068cbe1848ce505e
+    ©¦  ©¦  ©¦      cfg.ldata
+    ©¦  ©¦  ©¦      kaitalk.dat
+    ©¦  ©¦  ©¦      
+    ©¦  ©¦  ©¸©¤res
+    ©¦  ©¦      ©¸©¤asr
+    ©¦  ©¦          ©¦  common.jet
+    ©¦  ©¦          ©¦  
+    ©¦  ©¦          ©¸©¤GrmBuilld
+    ©¦  ©¦              ©¦  aybifwaa.d
+    ©¦  ©¦              ©¦  bzvskdaa.d
+    ©¦  ©¦              ©¦  call.g
+    ©¦  ©¦              ©¦  call_16K
+    ©¦  ©¦              ©¦  edhbxaea.d
+    ©¦  ©¦              ©¦  hhnkdega.d
+    ©¦  ©¦              ©¦  uikawbda.d
+    ©¦  ©¦              ©¦  wkufnlaa.d
+    ©¦  ©¦              ©¦  
+    ©¦  ©¦              ©¸©¤temp
+    ©¦  ©¦                      aybifwaa.d
+    ©¦  ©¦                      bzvskdaa.d
+    ©¦  ©¦                      call.g
+    ©¦  ©¦                      call_16K
+    ©¦  ©¦                      commit
+    ©¦  ©¦                      edhbxaea.d
+    ©¦  ©¦                      hhnkdega.d
+    ©¦  ©¦                      uikawbda.d
+    ©¦  ©¦                      wkufnlaa.d
+    ©¦  ©¦                      
+    ©¦  ©¸©¤wav
+    ©¦          ddhgdw.pcm
+    ©¦          ddhghlj.pcm
+    ©¦          
+    ©¸©¤src
+        ©¦  ControlLEDS_1.c
+        ©¦  ControlLEDS_1.h
+        ©¦  dht11_1.c
+        ©¦  dht11_1.h
+        ©¦  MainControl.c
+        ©¦  WakeUpRecorder.c
+        ©¦  
+        ©¸©¤aitalk
+            ©À©¤asr_record
+            ©¦      64bit_make.sh
+            ©¦      asr_record_sample.c
+            ©¦      formats.h
+            ©¦      linuxrec.c
+            ©¦      linuxrec.h
+            ©¦      Makefile
+            ©¦      speech_recognizer.c
+            ©¦      speech_recognizer.h
+            ©¦      
+            ©À©¤include
+            ©¦      msp_cmn.h
+            ©¦      msp_errors.h
+            ©¦      msp_types.h
+            ©¦      qisr.h
+            ©¦      
+            ©¸©¤libs
+                ©¸©¤x64
+                        libmsc.so
+                        
