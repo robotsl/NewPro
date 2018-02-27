@@ -1,78 +1,71 @@
-NewPro
-    ©¦  README
-    ©¦  
-    ©À©¤bin
-    ©¦  ©¦  .gitignore
-    ©¦  ©¦  call.bnf
-    ©¦  ©¦  
-    ©¦  ©À©¤msc
-    ©¦  ©¦  ©¦  grm_lex.log
-    ©¦  ©¦  ©¦  isr.log
-    ©¦  ©¦  ©¦  isr_local.log
-    ©¦  ©¦  ©¦  lgi.log
-    ©¦  ©¦  ©¦  msc.cfg
-    ©¦  ©¦  ©¦  msc.log
-    ©¦  ©¦  ©¦  waiter.log
-    ©¦  ©¦  ©¦  
-    ©¦  ©¦  ©À©¤2340d471501dd45d068cbe1848ce505e
-    ©¦  ©¦  ©¦      cfg.ldata
-    ©¦  ©¦  ©¦      kaitalk.dat
-    ©¦  ©¦  ©¦      
-    ©¦  ©¦  ©¸©¤res
-    ©¦  ©¦      ©¸©¤asr
-    ©¦  ©¦          ©¦  common.jet
-    ©¦  ©¦          ©¦  
-    ©¦  ©¦          ©¸©¤GrmBuilld
-    ©¦  ©¦              ©¦  aybifwaa.d
-    ©¦  ©¦              ©¦  bzvskdaa.d
-    ©¦  ©¦              ©¦  call.g
-    ©¦  ©¦              ©¦  call_16K
-    ©¦  ©¦              ©¦  edhbxaea.d
-    ©¦  ©¦              ©¦  hhnkdega.d
-    ©¦  ©¦              ©¦  uikawbda.d
-    ©¦  ©¦              ©¦  wkufnlaa.d
-    ©¦  ©¦              ©¦  
-    ©¦  ©¦              ©¸©¤temp
-    ©¦  ©¦                      aybifwaa.d
-    ©¦  ©¦                      bzvskdaa.d
-    ©¦  ©¦                      call.g
-    ©¦  ©¦                      call_16K
-    ©¦  ©¦                      commit
-    ©¦  ©¦                      edhbxaea.d
-    ©¦  ©¦                      hhnkdega.d
-    ©¦  ©¦                      uikawbda.d
-    ©¦  ©¦                      wkufnlaa.d
-    ©¦  ©¦                      
-    ©¦  ©¸©¤wav
-    ©¦          ddhgdw.pcm
-    ©¦          ddhghlj.pcm
-    ©¦          
-    ©¸©¤src
-        ©¦  ControlLEDS_1.c
-        ©¦  ControlLEDS_1.h
-        ©¦  dht11_1.c
-        ©¦  dht11_1.h
-        ©¦  MainControl.c
-        ©¦  WakeUpRecorder.c
-        ©¦  
-        ©¸©¤aitalk
-            ©À©¤asr_record
-            ©¦      64bit_make.sh
-            ©¦      asr_record_sample.c
-            ©¦      formats.h
-            ©¦      linuxrec.c
-            ©¦      linuxrec.h
-            ©¦      Makefile
-            ©¦      speech_recognizer.c
-            ©¦      speech_recognizer.h
-            ©¦      
-            ©À©¤include
-            ©¦      msp_cmn.h
-            ©¦      msp_errors.h
-            ©¦      msp_types.h
-            ©¦      qisr.h
-            ©¦      
-            ©¸©¤libs
-                ©¸©¤x64
-                        libmsc.so
-                        
+../NewPro
+â”œâ”€â”€ bin
+â”‚Â Â  â”œâ”€â”€ call.bnf
+â”‚Â Â  â”œâ”€â”€ msc
+â”‚Â Â  â”‚Â Â  â”œâ”€â”€ 2340d471501dd45d068cbe1848ce505e
+â”‚Â Â  â”‚Â Â  â”‚Â Â  â”œâ”€â”€ cfg.ldata
+â”‚Â Â  â”‚Â Â  â”‚Â Â  â””â”€â”€ kaitalk.dat
+â”‚Â Â  â”‚Â Â  â”œâ”€â”€ grm_lex.log
+â”‚Â Â  â”‚Â Â  â”œâ”€â”€ isr_local.log
+â”‚Â Â  â”‚Â Â  â”œâ”€â”€ isr.log
+â”‚Â Â  â”‚Â Â  â”œâ”€â”€ lgi.log
+â”‚Â Â  â”‚Â Â  â”œâ”€â”€ msc.cfg
+â”‚Â Â  â”‚Â Â  â”œâ”€â”€ msc.log
+â”‚Â Â  â”‚Â Â  â”œâ”€â”€ res
+â”‚Â Â  â”‚Â Â  â”‚Â Â  â””â”€â”€ asr
+â”‚Â Â  â”‚Â Â  â”‚Â Â      â”œâ”€â”€ common.jet
+â”‚Â Â  â”‚Â Â  â”‚Â Â      â””â”€â”€ GrmBuilld
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”œâ”€â”€ aybifwaa.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”œâ”€â”€ bzvskdaa.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”œâ”€â”€ call_16K
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”œâ”€â”€ call.g
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”œâ”€â”€ edhbxaea.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”œâ”€â”€ hhnkdega.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”œâ”€â”€ temp
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”‚Â Â  â”œâ”€â”€ aybifwaa.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”‚Â Â  â”œâ”€â”€ bzvskdaa.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”‚Â Â  â”œâ”€â”€ call_16K
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”‚Â Â  â”œâ”€â”€ call.g
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”‚Â Â  â”œâ”€â”€ commit
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”‚Â Â  â”œâ”€â”€ edhbxaea.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”‚Â Â  â”œâ”€â”€ hhnkdega.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”‚Â Â  â”œâ”€â”€ uikawbda.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”‚Â Â  â””â”€â”€ wkufnlaa.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â”œâ”€â”€ uikawbda.d
+â”‚Â Â  â”‚Â Â  â”‚Â Â          â””â”€â”€ wkufnlaa.d
+â”‚Â Â  â”‚Â Â  â””â”€â”€ waiter.log
+â”‚Â Â  â””â”€â”€ wav
+â”‚Â Â      â”œâ”€â”€ ddhgdw.pcm
+â”‚Â Â      â””â”€â”€ ddhghlj.pcm
+â”œâ”€â”€ devices
+â”‚Â Â  â”œâ”€â”€ led_blue.c
+â”‚Â Â  â”œâ”€â”€ led_red.c
+â”‚Â Â  â””â”€â”€ led_yellow.c
+â”œâ”€â”€ README
+â””â”€â”€ src
+    â”œâ”€â”€ aitalk
+    â”‚Â Â  â”œâ”€â”€ asr_record
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ 64bit_make.sh
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ asr_record_sample.c
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ formats.h
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ linuxrec.c
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ linuxrec.h
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ Makefile
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ speech_recognizer.c
+    â”‚Â Â  â”‚Â Â  â””â”€â”€ speech_recognizer.h
+    â”‚Â Â  â”œâ”€â”€ include
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ msp_cmn.h
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ msp_errors.h
+    â”‚Â Â  â”‚Â Â  â”œâ”€â”€ msp_types.h
+    â”‚Â Â  â”‚Â Â  â””â”€â”€ qisr.h
+    â”‚Â Â  â””â”€â”€ libs
+    â”‚Â Â      â””â”€â”€ x64
+    â”‚Â Â          â””â”€â”€ libmsc.so
+    â”œâ”€â”€ ControlLEDS_1.c
+    â”œâ”€â”€ ControlLEDS_1.h
+    â”œâ”€â”€ dht11_1.c
+    â”œâ”€â”€ dht11_1.h
+    â”œâ”€â”€ MainControl.c
+    â””â”€â”€ WakeUpRecorder.c
+
+15 directories, 53 files
