@@ -1,11 +1,11 @@
 #common makefile header
 
-DIR_INC = /home/pi/Modles/src/aitalk/include
-DIR_BIN = /home/pi/Modles/bin
-DIR_LIB = /home/pi/Modles/src/aitalk/libs
+DIR_INC = /home/pi/NewPro/src/aitalk/include
+DIR_BIN = /home/pi/NewPro/bin
+DIR_LIB = /home/pi/NewPro/src/aitalk/libs
 
 
-TARGET	= asr_record_sample
+TARGET	= test
 BIN_TARGET = $(DIR_BIN)/$(TARGET)
 
 CROSS_COMPILE = 

@@ -12301,3 +12301,2808 @@ xœ«VJÌ,IÌÉV²ªV*K-R²R2RÒQJ*-	¤å%e¦
 [2018/01/14 06:08:11 644] isr_local  2142 esr_session_end, ret =  0  
 [2018/01/14 06:08:11 649] isr_local  2265 last gc at  1515910083  
 [2018/01/14 06:08:11 702] isr_local  638  local engine already stopped! stop cmd ignored  
+============================================================
+Time  2018/02/28 09:05:26 588 
+============================================================
+[2018/02/28 09:05:26 588] isr_local  2168 os_type is:  Linux  
+[2018/02/28 09:05:26 590] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2018/02/28 09:05:26 590] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:26 590] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2018/02/28 09:05:26 591] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:26 591] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2018/02/28 09:05:26 592] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:26 592] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2018/02/28 09:05:26 592] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=call,result_type=xml,result_encoding=UTF-8  
+[2018/02/28 09:05:26 593] isr_local  803  engine_type  :  local  
+[2018/02/28 09:05:26 593] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2018/02/28 09:05:26 593] isr_local  803  sample_rate  :  16000  
+[2018/02/28 09:05:26 593] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2018/02/28 09:05:26 594] isr_local  803  local_grammar  :  call  
+[2018/02/28 09:05:26 594] isr_local  803  result_type  :  xml  
+[2018/02/28 09:05:26 594] isr_local  803  result_encoding  :  UTF-8  
+[2018/02/28 09:05:26 594] isr_local  1280 init aitalk in ssb  
+[2018/02/28 09:05:26 594] isr_local  1162 esr_init | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=call,result_type=xml,result_encoding=UTF-8  
+[2018/02/28 09:05:26 595] isr_local  803  engine_type  :  local  
+[2018/02/28 09:05:26 595] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2018/02/28 09:05:26 595] isr_local  803  sample_rate  :  16000  
+[2018/02/28 09:05:26 595] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2018/02/28 09:05:26 595] isr_local  803  local_grammar  :  call  
+[2018/02/28 09:05:26 596] isr_local  803  result_type  :  xml  
+[2018/02/28 09:05:26 596] isr_local  803  result_encoding  :  UTF-8  
+[2018/02/28 09:05:26 596] isr_local  1083  lucEsr.new   
+[2018/02/28 09:05:26 596] isr_local  1000 file count =   1  
+[2018/02/28 09:05:26 597] isr_local  923  file open type is:   fo  
+[2018/02/28 09:05:26 597] isr_local  956  res/asr/common.jet  0  0  
+[2018/02/28 09:05:26 597] isr_local  1018 speech_plus_setting  0  
+[2018/02/28 09:05:26 597] isr_local  1031 2  nil  res/asr/common.jet  0  0  
+[2018/02/28 09:05:26 598] isr_local  1033 res_ver  2  
+[2018/02/28 09:05:26 598] isr_local  1034 res 5  f270f7292de3272003fa5d4bcd4b34f7  
+[2018/02/28 09:05:26 598] isr_local  1035 res_new_old_mark  v5pp  
+[2018/02/28 09:05:26 598] isr_local  1036 res_usr_name    
+[2018/02/28 09:05:26 599] isr_local  1037 res_expires    
+[2018/02/28 09:05:26 599] isr_local  1038 err  0  
+[2018/02/28 09:05:26 599] isr_local  1054 lgi appid 5  f270f7292de3272003fa5d4bcd4b34f7  
+[2018/02/28 09:05:26 599] isr_local  1065 res_expires is null  
+[2018/02/28 09:05:26 601] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"forbid":"0","nlimit":3}}}  
+[2018/02/28 09:05:26 602] auth       312  nil  
+[2018/02/28 09:05:27 037] isr_local  1294 authorized_aitalk=  nil  
+[2018/02/28 09:05:27 037] isr_local  1295 forbid_aitalk=  0  
+[2018/02/28 09:05:27 038] auth       570  aitalk  table(74f7fce8) nil  nil  appid = 5a38785e  
+[2018/02/28 09:05:27 038] auth       579  app  nil  nil  nil  
+[2018/02/28 09:05:27 038] auth       636  ath rquest  {"authorize":[{"busin":"aitalk","ver":"2.1.1"}]}  
+[2018/02/28 09:05:27 041] transport  658  paramkvsport is   nil  
+[2018/02/28 09:05:27 042] transport  666  ns_enable=  1  
+[2018/02/28 09:05:27 042] transport  672  net.nettype=  standard  
+[2018/02/28 09:05:27 042] transport  711  url.full=  nil  
+[2018/02/28 09:05:27 042] transport  896  switch 80  
+[2018/02/28 09:05:27 043] transport  907  net type:  standard  
+[2018/02/28 09:05:27 043] transport  908  net operator:  def  
+[2018/02/28 09:05:27 043] transport  909  use proxy:  false  
+[2018/02/28 09:05:27 043] auth       691  not login!  
+[2018/02/28 09:05:27 044] auth       528  [session] send auth request  
+[2018/02/28 09:05:27 044] transport  1042 session.domain=  open.xf-yun.com  
+[2018/02/28 09:05:27 044] transport  1043 url.host=  open.xf-yun.com  
+[2018/02/28 09:05:27 044] transport  1077 NAMESERVER START  
+[2018/02/28 09:05:27 045] transport  1080 name =   ath  
+[2018/02/28 09:05:27 045] ns         629  ntt=  standard  
+[2018/02/28 09:05:27 045] transport  1083 trans,ns_inprog =  0  
+[2018/02/28 09:05:27 045] ns         585  name server start  
+[2018/02/28 09:05:27 045] ns         586  ns_sub =   ath  
+[2018/02/28 09:05:27 046] ns         588  ns_host=  open.xf-yun.com  
+[2018/02/28 09:05:27 046] ns         479  ns_host=  open.xf-yun.com  
+[2018/02/28 09:05:27 046] ns         558  GET /sip/resolver?srand=0228090511.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5a38785e&operator=UNKNOW&nettype=STANDARD&cver=5.0.34.1166&svc=ath&host=open.xf-yun.com&sign=3e1ca86ac5a2e8a07a81300445826448
+User-Agent: iFLYCloud
+
+  
+[2018/02/28 09:05:27 046] ns         559  net_type =  standard  
+[2018/02/28 09:05:27 047] ns         560  cmwapascmnet =  
+[2018/02/28 09:05:27 047] ns         561  uniwapasuninet =  
+[2018/02/28 09:05:27 050] ns         562  ctwapasctnet =  
+[2018/02/28 09:05:27 050] ns         579  host=  hdns.openspeech.cn  
+[2018/02/28 09:05:27 050] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2018/02/28 09:05:27 055] auth       535  0  
+[2018/02/28 09:05:27 056] auth       498  lver:  nil  
+[2018/02/28 09:05:27 056] auth       503  cfg_ver:  nil  
+[2018/02/28 09:05:27 057] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2018/02/28 09:05:27 065] isr_local  2076 commit success!  
+[2018/02/28 09:05:27 068] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2018/02/28 09:05:27 068] isr_local  2122 esr_session_begin, ret =   0  
+[2018/02/28 09:05:27 068] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 069] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 069] isr_local  601  audio buffered :   udata(74f0b770) 1  
+[2018/02/28 09:05:27 069] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 070] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 070] isr_local  601  audio buffered :   udata(74f0b968) 2  
+[2018/02/28 09:05:27 070] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 071] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 071] isr_local  601  audio buffered :   udata(74f701c8) 2  
+[2018/02/28 09:05:27 071] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 072] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 072] isr_local  601  audio buffered :   udata(74f80820) 2  
+[2018/02/28 09:05:27 072] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 073] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 073] isr_local  601  audio buffered :   udata(74f80880) 2  
+[2018/02/28 09:05:27 073] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 074] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 074] isr_local  601  audio buffered :   udata(74f80930) 2  
+[2018/02/28 09:05:27 074] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 075] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 075] isr_local  601  audio buffered :   udata(74f6fcb0) 2  
+[2018/02/28 09:05:27 075] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 076] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 076] isr_local  601  audio buffered :   udata(74f6fdc0) 2  
+[2018/02/28 09:05:27 076] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 077] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 077] isr_local  601  audio buffered :   udata(74f6fe70) 2  
+[2018/02/28 09:05:27 077] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 078] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 078] isr_local  601  audio buffered :   udata(74f10558) 2  
+[2018/02/28 09:05:27 078] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 079] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 079] isr_local  601  audio buffered :   udata(74f10608) 2  
+[2018/02/28 09:05:27 079] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 080] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 080] isr_local  601  audio buffered :   udata(74f106b8) 2  
+[2018/02/28 09:05:27 080] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 081] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 081] isr_local  601  audio buffered :   udata(74f26678) 2  
+[2018/02/28 09:05:27 081] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 082] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 082] isr_local  601  audio buffered :   udata(74f26728) 2  
+[2018/02/28 09:05:27 082] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 083] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 083] isr_local  601  audio buffered :   udata(74f267d8) 2  
+[2018/02/28 09:05:27 083] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 084] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 084] isr_local  601  audio buffered :   udata(74f26888) 2  
+[2018/02/28 09:05:27 084] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 085] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 085] isr_local  601  audio buffered :   udata(74f26938) 2  
+[2018/02/28 09:05:27 085] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 086] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 086] isr_local  601  audio buffered :   udata(74f269e8) 2  
+[2018/02/28 09:05:27 086] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 087] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 087] isr_local  601  audio buffered :   udata(74f26a98) 2  
+[2018/02/28 09:05:27 087] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 088] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 088] isr_local  601  audio buffered :   udata(74f265f8) 2  
+[2018/02/28 09:05:27 088] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 089] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 089] isr_local  601  audio buffered :   udata(74f10408) 2  
+[2018/02/28 09:05:27 089] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 090] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 091] isr_local  601  audio buffered :   udata(74f09530) 2  
+[2018/02/28 09:05:27 091] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 116] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 116] isr_local  601  audio buffered :   udata(74f095e0) 2  
+[2018/02/28 09:05:27 116] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 137] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 137] isr_local  601  audio buffered :   udata(74f09690) 2  
+[2018/02/28 09:05:27 137] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 158] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 158] isr_local  601  audio buffered :   udata(74f09740) 2  
+[2018/02/28 09:05:27 158] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 162] network    224  dns resp  0  ns1  
+[2018/02/28 09:05:27 163] ns         425  ns dns ok  117.121.56.5  
+[2018/02/28 09:05:27 163] ns         205  iplist not avail  
+[2018/02/28 09:05:27 165] ns         432  is_voicecloud_ip=  0  
+[2018/02/28 09:05:27 165] ns         439  ip_is_expected=  true  
+[2018/02/28 09:05:27 166] ns         447  ip_is_expected=  true  
+[2018/02/28 09:05:27 166] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2018/02/28 09:05:27 166] network    440  prot_type  tcp  
+[2018/02/28 09:05:27 169] transport  142  [dns] [1] response 42.62.116.35  
+[2018/02/28 09:05:27 170] transport  152  42  62  116  35  
+[2018/02/28 09:05:27 170] transport  203  ipv =  v4  
+[2018/02/28 09:05:27 170] transport  207  dns ip is v4  
+[2018/02/28 09:05:27 170] transport  181  iplist not avail  
+[2018/02/28 09:05:27 171] transport  247  no iplist now  
+[2018/02/28 09:05:27 171] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2018/02/28 09:05:27 176] transport  291  dns cb start conn  
+[2018/02/28 09:05:27 176] transport  1276 [soc] connect   42.62.116.35  80  
+[2018/02/28 09:05:27 177] transport  1293 mspsoc.open,prot_type=  tcp  
+[2018/02/28 09:05:27 200] isr_local  655  local engine ready  
+[2018/02/28 09:05:27 201] isr_local  585  esr_flush_buf_audio buffer audio num:  25  
+[2018/02/28 09:05:27 201] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 201] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 202] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 202] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 202] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 203] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 203] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 203] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 203] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 204] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 204] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 205] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 205] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 205] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 206] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 206] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 206] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 207] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 207] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 207] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 207] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 208] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 208] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 209] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 209] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 209] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 209] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 210] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 210] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 211] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 211] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 211] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 211] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 212] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 212] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 212] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 212] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 213] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 213] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 213] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 214] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 214] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 214] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 215] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 215] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 215] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 215] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 216] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 216] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 216] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:27 217] isr_local  630  local engine started  
+[2018/02/28 09:05:27 218] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 218] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 219] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 220] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 220] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 223] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 224] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 224] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 225] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 226] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 226] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 226] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 227] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 227] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 227] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 227] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 244] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 244] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 245] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 245] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 278] network    328  connected  ns2  
+[2018/02/28 09:05:27 280] network    331  send ok  271  ns2  
+[2018/02/28 09:05:27 286] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 286] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 287] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 287] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 311] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 311] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 312] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 312] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 331] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 331] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 332] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 332] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 351] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 351] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 352] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 352] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 353] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 353] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 354] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 354] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 372] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 373] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 373] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 373] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 379] transport  476  [soc] [1] connected  
+[2018/02/28 09:05:27 379] transport  1333 build http request.  
+[2018/02/28 09:05:27 380] transport  1433 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 362
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:51
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08mQdIdRQq1^Y=
+----
+CL:48
+CT:text/appinfo
+CE:gzip
+
+36
+xœËN­´5261H117450LI11M10³HNJ5´0±HN550M  
+[2018/02/28 09:05:27 384] transport  1753 msg:release()  
+[2018/02/28 09:05:27 385] transport  506  [soc] [1] send ok  535  
+[2018/02/28 09:05:27 393] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 393] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 394] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 394] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 415] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 415] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 415] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 416] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 457] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 457] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 458] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 458] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 464] network    340  readable  ns2  
+[2018/02/28 09:05:27 467] network    344  HTTP/1.1 200 OK
+Date: Wed, 28 Feb 2018 09:05:27 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.56.3","port":80,"idc":"ch"},{"ip":"42.62.116.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2018/02/28 09:05:27 468] ns         256  name server http resp  table(74f309b0) 0  udata(74f030d0) 
+[2018/02/28 09:05:27 469] ns         269  ns response OK for this time!  
+[2018/02/28 09:05:27 470] ns         280  from_server=  iflytek/hdns  
+[2018/02/28 09:05:27 474] ns         363  compel :  0  
+[2018/02/28 09:05:27 474] ns         374  tick()=  1992276  
+[2018/02/28 09:05:27 474] ns         378  tick()mod=  1992276  
+[2018/02/28 09:05:27 477] ns         379  ns_host=  open.xf-yun.com  
+[2018/02/28 09:05:27 480] ns         392  ns_host=  open.xf-yun.com  
+[2018/02/28 09:05:27 480] transport  1057 ns_ip =   117.121.56.3  
+[2018/02/28 09:05:27 480] transport  1058 ip_type =  assigned_athopen.xf-yun.com_host  
+[2018/02/28 09:05:27 480] ns         658  no data in ns_q  
+[2018/02/28 09:05:27 480] ns         659  conti_ns,ns_inprog =   1  
+[2018/02/28 09:05:27 481] transport  518  [soc] [1] readable  
+[2018/02/28 09:05:27 482] transport  1706 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 261
+X-Req-Date: 2018/02/28 17:05:27 399
+Cache-Control: no-cache
+CL: 261
+X-Res-Date: 2018/02/28 17:05:27 415
+
+----
+Content-Length:83
+
+ver=MSSP+0%2E9&ret=0&key=09mTM3ZYsZXou3S1ahUJRLrQGq2gCzLXuHsVb12bTsdU3WJd7Owy9ADA==
+----
+Content-Length:61
+Content-Type:binary/authinfo
+Content-Encoding:gzip
+
+54
+xœ«VJÌ,IÌÉV²ªV*K-R²R2RÒQJ*-	¤å%e¦  
+[2018/02/28 09:05:27 482] transport  1452 a_complete_httpmessage  200  
+[2018/02/28 09:05:27 482] transport  1562 is_update  true  
+[2018/02/28 09:05:27 482] transport  1566 port updated  80  
+[2018/02/28 09:05:27 483] transport  1568 switch  80  
+[2018/02/28 09:05:27 483] auth       347  [trans] [id = table: 0x74f7fdc0;;;=0===;auth] readable  
+[2018/02/28 09:05:27 487] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2018/02/28 09:05:27 488] transport  973  iplist not avail  
+[2018/02/28 09:05:27 488] transport  1310 [soc] disconnect   
+[2018/02/28 09:05:27 489] auth       383  auth_json=  udata(74f88f80) 
+[2018/02/28 09:05:27 490] auth       384  tostring(auth_json)=  {"aitalk":{"ver":"2","bus":{"forbid":"0","nlimit":3}}}  
+[2018/02/28 09:05:27 490] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"forbid":"0","nlimit":3}}}  
+[2018/02/28 09:05:27 494] auth       404  auth ok!  
+[2018/02/28 09:05:27 495] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 495] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 496] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 496] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 501] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 501] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 502] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 502] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 503] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 503] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 504] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 504] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 537] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 538] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 550] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 553] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 557] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 558] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 558] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 559] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 560] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 560] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 561] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 561] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 607] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 607] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 607] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 608] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 628] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 628] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 629] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 629] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 649] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 649] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 650] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 650] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 671] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 672] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 673] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 673] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 674] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 674] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 674] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 674] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 692] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 692] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 693] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 693] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 713] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 713] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 714] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 714] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 735] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 735] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 735] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 736] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 777] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 777] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 777] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 778] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 799] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 799] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 800] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 800] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 820] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 821] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 821] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 822] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 822] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 823] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 823] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 823] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 841] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 841] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 842] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 842] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 863] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 863] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 864] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 864] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 884] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 884] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 884] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 885] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 927] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 927] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 927] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 928] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 948] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 948] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 949] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 949] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 969] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 969] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 970] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 970] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 991] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 992] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 992] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 993] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:27 993] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:27 994] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:27 994] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:27 994] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 012] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 012] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 013] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 013] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 033] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 033] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 033] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 034] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 055] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 055] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 055] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 056] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 097] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 097] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 097] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 098] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 119] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 119] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 120] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 120] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 140] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 140] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 141] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 141] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 161] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 162] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 162] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 163] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 163] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 164] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 164] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 164] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 183] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 183] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 184] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 184] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 204] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 204] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 204] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 205] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 225] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 225] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 225] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 226] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 268] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 268] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 269] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 269] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 290] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 290] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 290] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 290] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 311] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 312] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 313] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 313] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 314] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 314] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 314] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 314] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 332] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 332] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 333] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 333] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 353] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 353] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 354] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 354] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 375] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 375] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 376] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 376] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 418] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 418] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 418] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 419] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 439] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 439] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 440] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 440] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 460] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 460] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 461] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 461] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 482] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 483] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 483] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 484] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 484] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 485] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 485] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 485] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 503] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 503] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 504] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 504] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 524] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 524] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 525] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 525] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 546] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 546] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 547] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 547] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 588] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 588] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 589] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 589] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 610] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 610] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 611] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 611] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 631] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 632] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 632] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 633] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 633] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 634] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 634] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 634] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 652] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 652] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 653] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 653] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 674] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 674] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 674] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 675] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 695] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 695] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 695] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 696] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 716] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 716] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 717] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 717] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 759] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 759] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 760] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 760] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 780] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 780] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 780] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 781] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 802] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 803] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 803] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 804] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 804] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 805] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 805] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 805] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 823] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 823] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 824] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 824] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 844] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 844] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 845] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 845] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 866] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 866] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 866] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 867] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 908] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 908] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 908] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 909] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 930] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 930] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 931] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 931] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 951] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 951] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 951] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 952] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 972] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 973] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 973] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 974] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 974] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 975] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 975] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 975] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:28 994] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:28 994] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:28 994] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:28 995] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 015] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 015] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 015] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 016] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 037] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 037] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 038] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 038] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 079] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 079] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 079] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 080] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 101] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 101] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 101] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 101] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 122] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 122] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 123] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 123] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 124] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 124] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 125] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 125] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 143] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 143] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 143] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 144] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 165] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 165] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 165] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 165] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 186] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 186] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 186] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 186] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 229] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 229] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 229] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 229] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 250] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 250] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 250] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 250] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 271] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 271] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 271] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 271] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 293] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 293] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 294] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 294] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 295] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 295] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 296] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 296] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 314] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 314] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 314] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 314] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 335] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 335] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 335] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 335] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 357] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 357] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 357] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 357] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 399] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 399] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 399] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 399] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 421] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 421] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 421] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 421] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 442] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 442] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 442] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 442] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 463] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 463] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 464] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 464] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 465] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 466] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 466] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 466] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 485] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 485] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 485] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 485] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 506] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 506] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 506] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 506] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 527] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 528] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 528] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 528] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 570] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 570] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 570] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 571] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 591] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 591] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 591] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 591] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 613] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 613] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 614] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 614] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 615] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 616] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 616] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 616] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 634] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 634] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 634] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 634] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 655] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 655] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 655] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 655] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 677] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 677] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 677] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 677] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 695] isr_local  675  recognized end!  
+[2018/02/28 09:05:29 719] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:29 719] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:29 719] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:29 720] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 829] isr_local  2140 ASR_LOCAL_MSG_SSE  
+[2018/02/28 09:05:29 829] isr_local  1518 esr_session_end | esr_obj:stop ret =  0  
+[2018/02/28 09:05:29 829] isr_local  2142 esr_session_end, ret =  0  
+[2018/02/28 09:05:29 837] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:29 895] isr_local  638  local engine already stopped! stop cmd ignored  
+[2018/02/28 09:05:31 961] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2018/02/28 09:05:31 961] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:31 962] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2018/02/28 09:05:31 962] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=call,result_type=xml,result_encoding=UTF-8  
+[2018/02/28 09:05:31 963] isr_local  803  engine_type  :  local  
+[2018/02/28 09:05:31 963] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2018/02/28 09:05:31 963] isr_local  803  sample_rate  :  16000  
+[2018/02/28 09:05:31 963] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2018/02/28 09:05:31 964] isr_local  803  local_grammar  :  call  
+[2018/02/28 09:05:31 964] isr_local  803  result_type  :  xml  
+[2018/02/28 09:05:31 964] isr_local  803  result_encoding  :  UTF-8  
+[2018/02/28 09:05:31 964] isr_local  1294 authorized_aitalk=  1  
+[2018/02/28 09:05:31 964] isr_local  1295 forbid_aitalk=  0  
+[2018/02/28 09:05:31 965] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2018/02/28 09:05:31 970] isr_local  2076 commit success!  
+[2018/02/28 09:05:31 973] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2018/02/28 09:05:31 973] isr_local  2122 esr_session_begin, ret =   0  
+[2018/02/28 09:05:31 973] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 054] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 054] isr_local  601  audio buffered :   udata(74f800e8) 1  
+[2018/02/28 09:05:32 055] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 073] isr_local  655  local engine ready  
+[2018/02/28 09:05:32 073] isr_local  585  esr_flush_buf_audio buffer audio num:  1  
+[2018/02/28 09:05:32 074] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 074] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:05:32 075] isr_local  630  local engine started  
+[2018/02/28 09:05:32 077] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 077] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 078] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 078] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 099] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 099] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 099] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 099] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 100] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 100] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 101] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 101] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 118] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 118] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 119] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 119] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 139] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 139] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 140] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 140] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 161] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 161] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 162] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 162] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 203] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 203] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 204] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 204] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 227] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 227] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 227] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 228] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 246] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 246] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 247] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 247] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 267] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 268] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 268] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 268] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 270] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 270] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 270] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 271] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 289] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 289] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 289] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 290] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 309] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 310] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 310] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 310] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 331] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 331] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 331] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 331] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 373] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 374] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 374] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 374] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 394] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 395] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 395] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 395] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 417] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 417] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 417] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 418] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 419] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 419] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 420] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 420] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 437] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 438] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 438] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 438] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 458] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 459] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 459] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 459] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 480] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 481] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 481] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 481] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 522] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 523] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 523] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 523] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 544] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 545] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 545] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 545] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 565] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 566] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 566] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 566] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 587] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 587] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 587] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 588] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 589] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 589] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 590] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 590] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 608] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 609] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 609] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 609] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 629] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 630] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 630] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 630] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 650] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 651] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 651] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 651] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 693] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 694] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 694] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 694] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 715] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 716] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 716] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 716] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 736] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 737] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 737] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 737] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 758] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 758] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 758] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 759] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 760] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 760] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 761] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 761] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 779] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 780] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 780] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 780] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 800] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 801] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 801] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 801] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 821] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 822] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 822] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 822] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 864] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 864] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 865] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 865] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 885] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 886] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 886] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 886] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 908] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 908] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 908] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 909] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 910] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 910] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 911] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 911] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 928] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 929] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 929] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 929] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 949] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 950] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 950] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 950] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:32 971] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:32 972] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:32 972] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:32 972] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 013] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 014] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 014] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 014] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 035] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 036] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 036] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 036] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 056] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 057] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 057] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 057] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 078] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 078] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 078] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 079] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 080] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 080] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 081] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 081] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 099] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 100] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 100] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 100] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 120] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 121] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 121] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 121] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 141] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 142] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 142] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 142] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 184] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 184] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 185] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 185] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 205] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 206] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 206] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 206] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 228] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 228] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 229] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 229] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 230] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 230] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 231] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 231] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 248] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 249] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 249] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 249] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 270] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 271] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 271] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 271] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 291] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 292] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 292] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 292] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 333] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 333] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 334] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 334] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 355] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 356] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 356] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 356] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 376] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 377] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 377] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 377] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 398] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 398] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 398] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 399] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 400] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 400] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 401] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 401] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 419] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 420] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 420] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 420] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 440] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 441] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 441] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 441] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 461] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 462] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 462] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 462] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 504] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 505] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 505] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 505] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 526] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 527] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 527] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 527] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 547] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 548] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 548] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 548] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 569] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 569] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 569] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 570] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 571] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 571] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 572] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 572] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 589] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 590] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 590] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 590] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 611] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 612] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 612] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 612] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 632] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 633] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 633] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 633] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 675] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 675] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 676] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 676] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 696] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 697] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 697] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 697] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 718] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 718] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 718] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 719] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 720] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 720] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 721] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 721] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 739] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 740] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 740] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 740] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 760] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 761] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 761] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 761] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 781] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 782] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 782] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 782] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 824] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 824] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 825] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 825] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 845] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 846] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 846] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 846] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 867] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 868] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 868] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 868] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 889] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 889] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 889] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 890] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 891] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 891] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 892] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 892] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 910] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 910] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 910] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 910] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 931] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 932] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 932] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 932] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 952] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 953] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 953] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 953] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:33 995] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:33 995] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:33 996] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:33 996] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 016] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 017] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 017] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 017] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 039] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 039] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 039] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 040] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 041] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 041] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 042] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 042] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 059] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 060] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 060] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 060] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 080] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 081] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 081] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 081] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 102] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 103] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 103] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 103] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 123] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 124] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 124] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 124] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 166] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 166] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 167] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 167] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 187] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 188] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 188] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 188] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 209] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 209] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 209] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 210] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 211] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 211] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 212] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 212] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 230] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 231] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 231] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 231] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 251] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 252] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 252] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 252] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 272] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 273] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 273] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 273] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 315] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 316] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 316] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 316] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 336] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 337] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 337] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 337] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 358] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 359] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 359] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 359] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 380] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 380] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 380] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 381] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 382] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 382] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 383] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 383] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 400] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 401] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 401] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 401] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 422] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 423] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 423] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 423] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 443] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 444] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 444] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 444] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 486] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 486] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 487] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 487] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 507] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 508] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 508] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 508] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 529] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 529] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 529] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 530] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 531] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 531] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 532] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 532] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 550] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 551] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 551] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 551] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 571] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 572] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 572] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 572] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 592] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 593] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 593] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 593] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 635] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 635] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 636] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 636] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 656] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 657] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 657] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 657] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 679] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 679] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 679] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 680] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 700] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 700] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 701] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 702] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 702] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 702] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 703] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 703] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 720] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 721] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 721] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 721] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 741] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 742] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 742] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 743] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 763] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 764] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 764] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 765] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 805] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 806] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 806] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 806] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 827] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 828] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 828] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 828] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 848] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 849] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 849] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 849] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 871] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 871] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 872] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 872] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 873] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 873] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 874] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 874] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 891] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 892] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 892] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 892] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 913] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 913] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 913] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 914] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 934] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 934] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 934] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 934] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 976] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 977] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 977] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 977] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:34 997] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:34 998] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:34 998] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:34 999] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:35 020] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:35 020] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:35 021] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:35 021] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:35 022] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:35 022] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:35 023] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:35 023] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:35 040] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:35 041] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:35 041] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:35 042] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:35 071] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:35 071] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:35 072] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:35 072] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:35 083] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:35 084] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:35 084] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:35 084] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:35 102] isr_local  675  recognized end!  
+[2018/02/28 09:05:35 126] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:05:35 126] isr_local  1558 auwl =   682  
+[2018/02/28 09:05:35 127] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:05:35 127] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:35 231] isr_local  2140 ASR_LOCAL_MSG_SSE  
+[2018/02/28 09:05:35 232] isr_local  1518 esr_session_end | esr_obj:stop ret =  0  
+[2018/02/28 09:05:35 233] isr_local  2142 esr_session_end, ret =  0  
+[2018/02/28 09:05:35 244] isr_local  2265 last gc at  1519808726  
+[2018/02/28 09:05:35 302] isr_local  638  local engine already stopped! stop cmd ignored  
+[2018/02/28 09:05:36 980] isr_local  2182 SYS_MSG_SHUTDOWN_LOCAL  
+[2018/02/28 09:05:37 036] isr_local  2265 last gc at  1519808726  
+============================================================
+Time  2018/02/28 09:06:48 050 
+============================================================
+[2018/02/28 09:06:48 051] isr_local  2168 os_type is:  Linux  
+[2018/02/28 09:06:48 051] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2018/02/28 09:06:48 051] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 052] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2018/02/28 09:06:48 052] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 053] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2018/02/28 09:06:48 053] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 054] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2018/02/28 09:06:48 054] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=call,result_type=xml,result_encoding=UTF-8  
+[2018/02/28 09:06:48 054] isr_local  803  engine_type  :  local  
+[2018/02/28 09:06:48 054] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2018/02/28 09:06:48 054] isr_local  803  sample_rate  :  16000  
+[2018/02/28 09:06:48 055] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2018/02/28 09:06:48 055] isr_local  803  local_grammar  :  call  
+[2018/02/28 09:06:48 055] isr_local  803  result_type  :  xml  
+[2018/02/28 09:06:48 055] isr_local  803  result_encoding  :  UTF-8  
+[2018/02/28 09:06:48 055] isr_local  1280 init aitalk in ssb  
+[2018/02/28 09:06:48 056] isr_local  1162 esr_init | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=call,result_type=xml,result_encoding=UTF-8  
+[2018/02/28 09:06:48 056] isr_local  803  engine_type  :  local  
+[2018/02/28 09:06:48 056] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2018/02/28 09:06:48 056] isr_local  803  sample_rate  :  16000  
+[2018/02/28 09:06:48 057] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2018/02/28 09:06:48 057] isr_local  803  local_grammar  :  call  
+[2018/02/28 09:06:48 057] isr_local  803  result_type  :  xml  
+[2018/02/28 09:06:48 057] isr_local  803  result_encoding  :  UTF-8  
+[2018/02/28 09:06:48 057] isr_local  1083  lucEsr.new   
+[2018/02/28 09:06:48 058] isr_local  1000 file count =   1  
+[2018/02/28 09:06:48 058] isr_local  923  file open type is:   fo  
+[2018/02/28 09:06:48 058] isr_local  956  res/asr/common.jet  0  0  
+[2018/02/28 09:06:48 059] isr_local  1018 speech_plus_setting  0  
+[2018/02/28 09:06:48 059] isr_local  1031 2  nil  res/asr/common.jet  0  0  
+[2018/02/28 09:06:48 059] isr_local  1033 res_ver  2  
+[2018/02/28 09:06:48 059] isr_local  1034 res 5  f270f7292de3272003fa5d4bcd4b34f7  
+[2018/02/28 09:06:48 060] isr_local  1035 res_new_old_mark  v5pp  
+[2018/02/28 09:06:48 060] isr_local  1036 res_usr_name    
+[2018/02/28 09:06:48 060] isr_local  1037 res_expires    
+[2018/02/28 09:06:48 060] isr_local  1038 err  0  
+[2018/02/28 09:06:48 060] isr_local  1054 lgi appid 5  f270f7292de3272003fa5d4bcd4b34f7  
+[2018/02/28 09:06:48 061] isr_local  1065 res_expires is null  
+[2018/02/28 09:06:48 062] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"forbid":"0","nlimit":3}}}  
+[2018/02/28 09:06:48 062] auth       312  nil  
+[2018/02/28 09:06:48 104] isr_local  1294 authorized_aitalk=  nil  
+[2018/02/28 09:06:48 104] isr_local  1295 forbid_aitalk=  0  
+[2018/02/28 09:06:48 104] auth       570  aitalk  table(74f24848) nil  nil  appid = 5a38785e  
+[2018/02/28 09:06:48 105] auth       579  app  nil  nil  nil  
+[2018/02/28 09:06:48 105] auth       636  ath rquest  {"authorize":[{"ver":"2.1.1","busin":"aitalk"}]}  
+[2018/02/28 09:06:48 108] transport  658  paramkvsport is   nil  
+[2018/02/28 09:06:48 109] transport  666  ns_enable=  1  
+[2018/02/28 09:06:48 109] transport  672  net.nettype=  standard  
+[2018/02/28 09:06:48 110] transport  711  url.full=  nil  
+[2018/02/28 09:06:48 110] transport  896  switch 80  
+[2018/02/28 09:06:48 111] transport  907  net type:  standard  
+[2018/02/28 09:06:48 111] transport  908  net operator:  def  
+[2018/02/28 09:06:48 112] transport  909  use proxy:  false  
+[2018/02/28 09:06:48 112] auth       691  not login!  
+[2018/02/28 09:06:48 112] auth       528  [session] send auth request  
+[2018/02/28 09:06:48 113] transport  1042 session.domain=  open.xf-yun.com  
+[2018/02/28 09:06:48 113] transport  1043 url.host=  open.xf-yun.com  
+[2018/02/28 09:06:48 113] transport  1077 NAMESERVER START  
+[2018/02/28 09:06:48 113] transport  1080 name =   ath  
+[2018/02/28 09:06:48 114] ns         629  ntt=  standard  
+[2018/02/28 09:06:48 114] transport  1083 trans,ns_inprog =  0  
+[2018/02/28 09:06:48 114] ns         585  name server start  
+[2018/02/28 09:06:48 114] ns         586  ns_sub =   ath  
+[2018/02/28 09:06:48 114] ns         588  ns_host=  open.xf-yun.com  
+[2018/02/28 09:06:48 115] ns         479  ns_host=  open.xf-yun.com  
+[2018/02/28 09:06:48 115] ns         558  GET /sip/resolver?srand=0228090611.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5a38785e&operator=UNKNOW&nettype=STANDARD&cver=5.0.34.1166&svc=ath&host=open.xf-yun.com&sign=48c018ec816c9cd3abc024e63158a512
+User-Agent: iFLYCloud
+
+  
+[2018/02/28 09:06:48 115] ns         559  net_type =  standard  
+[2018/02/28 09:06:48 115] ns         560  cmwapascmnet =  
+[2018/02/28 09:06:48 116] ns         561  uniwapasuninet =  
+[2018/02/28 09:06:48 116] ns         562  ctwapasctnet =  
+[2018/02/28 09:06:48 116] ns         579  host=  hdns.openspeech.cn  
+[2018/02/28 09:06:48 116] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2018/02/28 09:06:48 119] auth       535  0  
+[2018/02/28 09:06:48 119] auth       498  lver:  nil  
+[2018/02/28 09:06:48 119] auth       503  cfg_ver:  nil  
+[2018/02/28 09:06:48 120] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2018/02/28 09:06:48 128] isr_local  2076 commit success!  
+[2018/02/28 09:06:48 131] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2018/02/28 09:06:48 131] isr_local  2122 esr_session_begin, ret =   0  
+[2018/02/28 09:06:48 132] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 132] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 132] isr_local  601  audio buffered :   udata(74f09f18) 1  
+[2018/02/28 09:06:48 133] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 133] network    224  dns resp  0  ns1  
+[2018/02/28 09:06:48 133] ns         425  ns dns ok  117.121.56.5  
+[2018/02/28 09:06:48 134] ns         205  iplist not avail  
+[2018/02/28 09:06:48 136] ns         432  is_voicecloud_ip=  0  
+[2018/02/28 09:06:48 136] ns         439  ip_is_expected=  true  
+[2018/02/28 09:06:48 136] ns         447  ip_is_expected=  true  
+[2018/02/28 09:06:48 136] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2018/02/28 09:06:48 137] network    440  prot_type  tcp  
+[2018/02/28 09:06:48 139] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 139] isr_local  601  audio buffered :   udata(74f0c150) 2  
+[2018/02/28 09:06:48 140] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 140] transport  142  [dns] [1] response 42.62.116.35  
+[2018/02/28 09:06:48 141] transport  152  42  62  116  35  
+[2018/02/28 09:06:48 141] transport  203  ipv =  v4  
+[2018/02/28 09:06:48 141] transport  207  dns ip is v4  
+[2018/02/28 09:06:48 141] transport  181  iplist not avail  
+[2018/02/28 09:06:48 142] transport  247  no iplist now  
+[2018/02/28 09:06:48 142] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2018/02/28 09:06:48 147] transport  291  dns cb start conn  
+[2018/02/28 09:06:48 147] transport  1276 [soc] connect   42.62.116.35  80  
+[2018/02/28 09:06:48 151] transport  1293 mspsoc.open,prot_type=  tcp  
+[2018/02/28 09:06:48 177] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 178] isr_local  601  audio buffered :   udata(74f21650) 2  
+[2018/02/28 09:06:48 178] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 179] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 179] isr_local  601  audio buffered :   udata(74f23b30) 2  
+[2018/02/28 09:06:48 180] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 180] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 180] isr_local  601  audio buffered :   udata(74f51498) 2  
+[2018/02/28 09:06:48 181] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 181] network    328  connected  ns2  
+[2018/02/28 09:06:48 184] network    331  send ok  271  ns2  
+[2018/02/28 09:06:48 191] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 192] isr_local  601  audio buffered :   udata(74f23568) 2  
+[2018/02/28 09:06:48 192] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 213] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 214] isr_local  601  audio buffered :   udata(74f228f8) 2  
+[2018/02/28 09:06:48 214] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 220] transport  476  [soc] [1] connected  
+[2018/02/28 09:06:48 220] transport  1333 build http request.  
+[2018/02/28 09:06:48 221] transport  1433 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 361
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:51
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08mQdIdRQq1^Y=
+----
+CL:48
+CT:text/appinfo
+CE:gzip
+
+36
+xœËN­´5261H117450LI11M10³HNJ5´0±HN550M  
+[2018/02/28 09:06:48 225] transport  1753 msg:release()  
+[2018/02/28 09:06:48 226] transport  506  [soc] [1] send ok  534  
+[2018/02/28 09:06:48 249] isr_local  655  local engine ready  
+[2018/02/28 09:06:48 250] isr_local  585  esr_flush_buf_audio buffer audio num:  7  
+[2018/02/28 09:06:48 250] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 251] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:06:48 252] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 252] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:06:48 253] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 253] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:06:48 253] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 253] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:06:48 254] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 254] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:06:48 254] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 255] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:06:48 255] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 255] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:06:48 256] isr_local  630  local engine started  
+[2018/02/28 09:06:48 268] network    340  readable  ns2  
+[2018/02/28 09:06:48 269] network    344  HTTP/1.1 200 OK
+Date: Wed, 28 Feb 2018 09:06:48 GMT
+Content-Type: application/json
+Content-Length: 314
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.146","port":80,"idc":"ch"},{"ip":"117.121.21.147","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.147","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
+[2018/02/28 09:06:48 270] ns         256  name server http resp  table(74f36ed8) 0  udata(74f7eba8) 
+[2018/02/28 09:06:48 270] ns         269  ns response OK for this time!  
+[2018/02/28 09:06:48 270] ns         280  from_server=  iflytek/hdns  
+[2018/02/28 09:06:48 274] ns         363  compel :  0  
+[2018/02/28 09:06:48 275] ns         374  tick()=  2073076  
+[2018/02/28 09:06:48 275] ns         378  tick()mod=  2073076  
+[2018/02/28 09:06:48 275] ns         379  ns_host=  open.xf-yun.com  
+[2018/02/28 09:06:48 279] ns         392  ns_host=  open.xf-yun.com  
+[2018/02/28 09:06:48 282] transport  1057 ns_ip =   117.121.21.146  
+[2018/02/28 09:06:48 282] transport  1058 ip_type =  assigned_athopen.xf-yun.com_host  
+[2018/02/28 09:06:48 283] ns         658  no data in ns_q  
+[2018/02/28 09:06:48 283] ns         659  conti_ns,ns_inprog =   1  
+[2018/02/28 09:06:48 284] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 285] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 285] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 286] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 289] transport  518  [soc] [1] readable  
+[2018/02/28 09:06:48 290] transport  1706 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 261
+X-Req-Date: 2018/02/28 17:06:48 235
+Cache-Control: no-cache
+CL: 261
+X-Res-Date: 2018/02/28 17:06:48 249
+
+----
+Content-Length:83
+
+ver=MSSP+0%2E9&ret=0&key=09XZ50HfLURyOCMa1hzuW6AwkF8sZ0uE6pYVhGko1Xf0XWJd7Owy9ADA==
+----
+Content-Length:61
+Content-Type:binary/authinfo
+Content-Encoding:gzip
+
+54
+xœ«VJÌ,IÌÉV²ªV*K-R²R2RÒQJ*-	¤å%e¦  
+[2018/02/28 09:06:48 290] transport  1452 a_complete_httpmessage  200  
+[2018/02/28 09:06:48 291] transport  1562 is_update  true  
+[2018/02/28 09:06:48 291] transport  1566 port updated  80  
+[2018/02/28 09:06:48 291] transport  1568 switch  80  
+[2018/02/28 09:06:48 291] auth       347  [trans] [id = table: 0x74f7e800;;;=0===;auth] readable  
+[2018/02/28 09:06:48 296] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2018/02/28 09:06:48 300] transport  973  iplist not avail  
+[2018/02/28 09:06:48 311] transport  1310 [soc] disconnect   
+[2018/02/28 09:06:48 319] auth       383  auth_json=  udata(74fd94e0) 
+[2018/02/28 09:06:48 328] auth       384  tostring(auth_json)=  {"aitalk":{"ver":"2","bus":{"forbid":"0","nlimit":3}}}  
+[2018/02/28 09:06:48 329] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"forbid":"0","nlimit":3}}}  
+[2018/02/28 09:06:48 333] auth       404  auth ok!  
+[2018/02/28 09:06:48 334] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 334] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 334] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 335] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 335] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 335] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 336] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 336] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 349] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 349] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 349] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 349] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 350] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 350] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 351] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 351] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 352] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 352] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 352] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 353] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 363] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 363] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 364] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 364] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 385] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 385] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 386] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 386] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 427] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 427] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 428] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 428] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 449] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 450] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 450] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 451] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 470] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 471] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 471] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 472] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 472] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 472] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 473] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 473] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 490] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 491] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 491] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 491] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 512] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 513] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 513] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 513] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 533] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 534] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 534] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 534] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 576] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 577] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 577] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 577] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 597] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 598] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 598] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 598] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 619] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 620] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 620] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 620] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 641] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 641] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 642] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 642] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 643] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 643] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 644] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 644] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 661] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 662] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 662] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 662] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 683] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 684] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 684] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 684] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 704] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 705] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 705] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 705] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 747] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 748] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 748] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 748] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 768] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 769] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 769] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 769] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 790] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 790] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 790] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 791] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 811] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 811] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 812] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 812] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 813] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 813] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 814] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 814] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 832] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 833] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 833] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 833] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 853] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 854] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 854] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 854] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 875] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 876] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 876] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 876] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 917] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 918] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 918] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 918] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 939] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 940] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 940] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 940] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 961] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 961] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 962] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 962] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 963] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 963] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 964] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 964] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:48 982] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:48 982] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:48 982] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:48 982] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 003] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 004] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 004] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 004] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 024] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 025] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 025] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 025] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 067] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 068] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 068] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 068] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 088] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 089] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 089] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 089] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 109] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 110] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 110] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 110] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 132] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 132] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 133] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 133] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 134] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 134] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 135] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 135] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 152] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 153] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 153] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 153] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 173] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 174] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 174] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 174] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 195] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 196] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 196] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 196] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 237] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 238] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 238] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 238] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 259] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 260] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 260] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 260] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 281] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 281] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 282] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 282] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 283] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 283] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 283] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 284] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 301] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 302] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 302] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 302] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 323] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 324] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 324] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 324] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 344] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 345] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 345] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 345] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 387] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 388] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 388] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 388] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 408] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 409] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 409] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 409] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 429] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 430] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 430] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 430] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 452] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 452] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 453] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 453] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 454] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 454] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 455] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 455] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 472] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 473] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 473] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 473] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 493] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 494] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 494] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 494] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 515] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 516] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 516] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 516] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 557] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 558] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 558] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 558] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 579] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 580] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 580] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 580] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 600] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 601] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 601] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 601] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 622] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 623] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 623] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 624] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 624] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 624] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 625] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 625] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 643] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 644] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 644] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 644] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 664] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 665] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 665] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 665] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 685] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 686] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 686] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 686] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 728] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 729] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 729] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 729] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 750] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 750] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 750] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 751] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 772] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 772] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 773] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 774] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 774] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 774] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 775] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 775] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 793] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 793] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 793] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 794] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 814] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 815] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 815] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 815] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 835] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 836] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 836] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 836] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 879] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 879] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 879] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 880] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 899] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 900] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 900] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 900] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 921] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 921] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 921] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 922] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 942] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 942] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 943] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 944] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 944] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 944] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 945] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 945] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 964] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 964] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 964] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 964] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:49 984] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:49 985] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:49 985] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:49 985] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 005] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 006] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 006] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 007] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 049] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 049] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 049] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 050] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 070] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 070] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 070] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 070] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 092] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 093] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 093] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 094] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 094] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 094] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 095] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 095] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 113] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 113] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 113] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 114] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 135] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 135] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 135] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 135] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 155] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 156] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 156] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 156] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 177] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 177] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 177] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 178] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 220] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 220] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 220] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 221] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 241] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 241] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 241] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 242] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 263] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 264] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 264] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 265] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 265] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 266] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 266] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 266] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 284] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 284] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 284] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 285] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 305] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 305] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 305] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 305] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 327] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 327] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 327] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 328] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 369] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 369] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 369] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 370] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 391] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 391] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 391] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 392] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 412] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 412] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 412] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 413] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 433] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 434] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 434] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 435] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 435] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 435] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 436] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 436] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 454] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 455] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 455] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 456] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 475] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 476] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 476] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 476] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 497] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 497] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 497] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 497] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 539] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 540] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 540] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 540] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 561] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 561] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 561] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 562] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 583] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 584] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 584] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 585] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 585] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 585] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 586] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 586] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 603] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 604] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 604] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 604] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 624] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 625] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 625] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 625] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 646] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 647] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 647] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 647] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 688] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 689] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 689] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 689] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 711] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 711] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 711] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 712] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 731] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 732] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 732] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 732] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 753] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 754] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 754] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 755] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 755] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 755] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 756] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 756] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 775] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 775] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 775] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 776] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 796] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 796] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 796] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 797] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 817] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 818] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 818] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 818] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 859] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 860] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 860] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 860] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 882] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 882] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 882] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 883] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 903] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 903] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 903] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 904] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 924] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 924] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 925] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 926] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 926] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 926] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 927] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 927] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 945] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 946] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 946] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 946] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 966] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 967] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 967] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 968] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:50 987] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:50 988] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:50 988] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:50 988] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 030] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:51 031] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:51 031] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:51 031] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 052] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:51 052] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:51 052] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:51 053] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 074] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:51 075] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:51 075] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:51 076] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 076] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:51 076] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:51 077] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:51 077] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 095] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:51 095] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:51 095] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:51 096] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 116] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:51 116] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:51 116] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:51 117] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 137] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:51 138] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:51 138] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:51 139] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 156] isr_local  675  recognized end!  
+[2018/02/28 09:06:51 180] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:51 180] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:51 181] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:51 182] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 289] isr_local  2140 ASR_LOCAL_MSG_SSE  
+[2018/02/28 09:06:51 290] isr_local  1518 esr_session_end | esr_obj:stop ret =  0  
+[2018/02/28 09:06:51 291] isr_local  2142 esr_session_end, ret =  0  
+[2018/02/28 09:06:51 299] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:51 355] isr_local  638  local engine already stopped! stop cmd ignored  
+[2018/02/28 09:06:53 435] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2018/02/28 09:06:53 436] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 436] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2018/02/28 09:06:53 437] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=call,result_type=xml,result_encoding=UTF-8  
+[2018/02/28 09:06:53 437] isr_local  803  engine_type  :  local  
+[2018/02/28 09:06:53 437] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2018/02/28 09:06:53 437] isr_local  803  sample_rate  :  16000  
+[2018/02/28 09:06:53 438] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2018/02/28 09:06:53 438] isr_local  803  local_grammar  :  call  
+[2018/02/28 09:06:53 438] isr_local  803  result_type  :  xml  
+[2018/02/28 09:06:53 438] isr_local  803  result_encoding  :  UTF-8  
+[2018/02/28 09:06:53 439] isr_local  1294 authorized_aitalk=  1  
+[2018/02/28 09:06:53 439] isr_local  1295 forbid_aitalk=  0  
+[2018/02/28 09:06:53 440] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2018/02/28 09:06:53 444] isr_local  2076 commit success!  
+[2018/02/28 09:06:53 446] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2018/02/28 09:06:53 447] isr_local  2122 esr_session_begin, ret =   0  
+[2018/02/28 09:06:53 447] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 530] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 531] isr_local  601  audio buffered :   udata(74f4cc88) 1  
+[2018/02/28 09:06:53 531] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 536] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 537] isr_local  601  audio buffered :   udata(74f23eb0) 2  
+[2018/02/28 09:06:53 537] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 546] isr_local  655  local engine ready  
+[2018/02/28 09:06:53 546] isr_local  585  esr_flush_buf_audio buffer audio num:  2  
+[2018/02/28 09:06:53 546] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 547] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:06:53 547] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 547] isr_local  590  esr_audio_write, ret =  0  
+[2018/02/28 09:06:53 548] isr_local  630  local engine started  
+[2018/02/28 09:06:53 554] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 554] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 554] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 554] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 555] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 555] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 555] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 556] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 571] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 571] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 572] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 572] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 592] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 592] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 592] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 593] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 614] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 614] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 614] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 614] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 656] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 656] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 656] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 656] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 678] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 678] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 678] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 679] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 702] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 702] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 702] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 703] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 720] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 721] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 721] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 721] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 722] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 723] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 723] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 723] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 741] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 741] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 741] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 742] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 763] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 763] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 763] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 763] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 783] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 783] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 784] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 784] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 826] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 826] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 827] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 827] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 847] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 847] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 848] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 848] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 869] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 869] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 869] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 870] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 871] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 871] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 871] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 872] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 890] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 890] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 891] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 891] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 911] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 911] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 912] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 912] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 932] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 932] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 933] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 933] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 975] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 975] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 976] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 976] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:53 996] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:53 996] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:53 997] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:53 997] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 018] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 018] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 019] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 019] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 040] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 040] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 040] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 041] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 042] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 042] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 042] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 043] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 060] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 060] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 061] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 061] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 082] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 082] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 083] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 083] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 103] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 103] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 104] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 104] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 146] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 146] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 147] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 147] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 167] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 167] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 168] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 168] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 188] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 188] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 189] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 189] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 211] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 211] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 211] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 212] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 213] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 213] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 213] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 214] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 231] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 232] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 232] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 232] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 252] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 252] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 253] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 253] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 274] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 274] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 275] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 275] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 316] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 316] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 317] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 317] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 338] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 338] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 339] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 339] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 360] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 360] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 360] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 361] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 362] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 362] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 362] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 363] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 380] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 380] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 381] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 381] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 402] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 402] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 403] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 403] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 423] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 423] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 424] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 424] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 466] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 466] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 467] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 467] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 487] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 487] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 488] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 488] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 508] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 508] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 509] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 509] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 531] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 531] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 531] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 531] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 533] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 533] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 533] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 534] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 551] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 551] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 552] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 552] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 572] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 572] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 573] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 573] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 594] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 594] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 595] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 595] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 636] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 636] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 637] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 637] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 658] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 659] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 659] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 659] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 680] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 680] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 680] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 681] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 682] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 682] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 682] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 683] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 700] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 700] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 701] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 701] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 722] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 723] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 723] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 723] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 743] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 743] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 744] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 744] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 786] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 786] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 787] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 787] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 807] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 807] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 808] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 808] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 828] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 829] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 829] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 829] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 851] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 851] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 851] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 852] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 853] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 853] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 853] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 854] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 871] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 872] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 872] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 872] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 893] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 893] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 894] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 894] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 914] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 914] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 915] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 915] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 957] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 957] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 958] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 958] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 978] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 978] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:54 979] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:54 979] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:54 999] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:54 999] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 000] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 000] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 022] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 022] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 022] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 023] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 024] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 024] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 024] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 025] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 042] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 043] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 043] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 043] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 063] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 063] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 064] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 064] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 085] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 085] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 086] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 086] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 127] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 127] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 128] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 128] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 149] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 149] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 150] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 150] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 171] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 171] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 171] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 172] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 173] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 173] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 173] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 174] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 191] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 191] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 192] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 192] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 213] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 213] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 214] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 214] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 234] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 234] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 235] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 235] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 277] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 277] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 278] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 278] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 298] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 298] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 299] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 299] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 319] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 319] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 320] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 320] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 342] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 342] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 342] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 342] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 344] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 344] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 344] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 345] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 362] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 362] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 363] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 363] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 383] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 383] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 384] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 384] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 405] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 405] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 406] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 406] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 447] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 447] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 448] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 448] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 469] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 469] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 470] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 470] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 491] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 491] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 491] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 491] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 493] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 493] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 493] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 494] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 511] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 511] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 512] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 512] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 533] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 533] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 534] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 534] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 554] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 554] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 555] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 555] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 575] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 575] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 576] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 576] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 618] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 618] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 619] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 619] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 639] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 639] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 640] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 640] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 662] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 662] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 662] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 663] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 664] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 664] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 664] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 665] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 682] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 682] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 683] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 683] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 703] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 703] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 704] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 704] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 725] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 725] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 726] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 726] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 767] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 767] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 768] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 768] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 789] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 789] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 790] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 790] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 810] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 810] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 811] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 811] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 832] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 832] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 832] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 832] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 834] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 834] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 834] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 835] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 853] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 853] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 854] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 854] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 874] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 874] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 875] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 875] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 895] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 895] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 896] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 896] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 938] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 938] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 939] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 939] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 959] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 960] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 960] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 960] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 982] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 982] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 982] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 983] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:55 984] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:55 984] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:55 984] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:55 985] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 002] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 002] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 003] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 003] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 024] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 024] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 025] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 025] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 045] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 045] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 046] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 046] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 088] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 088] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 089] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 089] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 109] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 109] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 110] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 110] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 130] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 130] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 131] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 131] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 153] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 153] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 153] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 154] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 155] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 155] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 155] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 156] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 173] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 173] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 174] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 174] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 194] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 194] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 195] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 195] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 216] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 216] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 217] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 217] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 259] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 259] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 260] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 260] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 280] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 280] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 281] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 281] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 301] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 301] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 302] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 302] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 323] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 323] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 323] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 323] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 325] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 325] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 325] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 326] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 344] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 344] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 345] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 345] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 365] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 365] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 366] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 366] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 386] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 386] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 387] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 387] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 429] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 429] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 430] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 430] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 451] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 451] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 452] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 452] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 473] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 473] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 473] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 474] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 475] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 475] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 475] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 476] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 493] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 493] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 494] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 494] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 515] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 515] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 516] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 516] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 536] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 536] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 537] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 537] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 554] isr_local  675  recognized end!  
+[2018/02/28 09:06:56 579] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2018/02/28 09:06:56 579] isr_local  1558 auwl =   682  
+[2018/02/28 09:06:56 579] isr_local  2135 esr_audio_write, ret =  nil  
+[2018/02/28 09:06:56 580] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 684] isr_local  2140 ASR_LOCAL_MSG_SSE  
+[2018/02/28 09:06:56 685] isr_local  1518 esr_session_end | esr_obj:stop ret =  0  
+[2018/02/28 09:06:56 685] isr_local  2142 esr_session_end, ret =  0  
+[2018/02/28 09:06:56 699] isr_local  2265 last gc at  1519808807  
+[2018/02/28 09:06:56 753] isr_local  638  local engine already stopped! stop cmd ignored  
+[2018/02/28 09:06:58 441] isr_local  2182 SYS_MSG_SHUTDOWN_LOCAL  
+[2018/02/28 09:06:58 497] isr_local  2265 last gc at  1519808807  

@@ -178,10 +178,6 @@ int update_lexicon(UserData *udata)
 		putchar('\n');
 }
 */
-static void *get_result()
-{
-	return g_result;
-}
 
 
 static char *g_result = NULL;
@@ -209,6 +205,10 @@ void on_result(const char *result, char is_last)
 		//show_result(g_result, is_last);
 		//return g_result;
 	}
+}
+static void *get_result()
+{
+	return g_result;
 }
 void on_speech_begin()
 {
