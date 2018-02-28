@@ -12,6 +12,9 @@
 #include "../include/msp_errors.h"
 #include "speech_recognizer.h"
 
+#include <stdarg.h>
+#include <time.h>
+
 #define FRAME_LEN	640 
 #define	BUFFER_SIZE	4096
 #define SAMPLE_RATE_16K     (16000)
@@ -31,43 +34,37 @@ typedef struct _UserData {
 	char    grammar_id[MAX_GRAMMARID_LEN]; //保存语法构建返回的语法ID
 }UserData;
 
+const FILE* pFile = fopen("record.log", "a");
+char *str = NULL;
 
-//const char *get_audio_file(void); //选择进行离线语法识别的语音文件
 int build_grammar(UserData *udata); //构建离线识别语法网络
 int update_lexicon(UserData *udata); //更新离线识别语法词典
 int run_asr(UserData *udata); //进行离线语法识别
 
-/*const char* get_audio_file(void)
-{
-	int key = 0;
-	while(key != 27) //按Esc则退出
-	{
-		printf("请选择音频文件：\n");
-		printf("1.打电话给丁伟\n");
-		printf("2.打电话给黄辣椒\n");
-		scanf("%d", &key);
-		//key = getc();
-		//printf("key==========%c",key);
-		switch(key)
-		{
-		case 1:
-			printf("\n1.打电话给丁伟\n");
-			return "wav/ddhgdw.pcm";
-		case 2:
-			printf("\n2.打电话给黄辣椒\n");
-			return "wav/ddhghlj.pcm";
-		default:
-			continue;
-		}
-	}
-	exit(0);
-	return NULL;
+int write_log (FILE* pFile, const char *format, ...) {
+    va_list arg;
+    int done;
+
+    va_start (arg, format);
+    //done = vfprintf (stdout, format, arg);
+
+    time_t time_log = time(NULL);
+    struct tm* tm_log = localtime(&time_log);
+    fprintf(pFile, "%04d-%02d-%02d %02d:%02d:%02d ", tm_log->tm_year + 1900, \
+	tm_log->tm_mon + 1, tm_log->tm_mday, tm_log->tm_hour, tm_log->tm_min,
+	tm_log->tm_sec);
+
+    done = vfprintf (pFile, format, arg);
+    va_end (arg);
+
+    fflush(pFile);
+    return done;
 }
-*/
 
 int build_grm_cb(int ecode, const char *info, void *udata)
 {
 	UserData *grm_data = (UserData *)udata;
+
 
 	if (NULL != grm_data) {
 		grm_data->build_fini = 1;
@@ -75,13 +72,15 @@ int build_grm_cb(int ecode, const char *info, void *udata)
 	}
 
 	if (MSP_SUCCESS == ecode && NULL != info) {
-		printf("构建语法成功！ 语法ID:%s\n", info);
+		sprintf(str,"构建语法成功！ 语法ID:%s\n", info);
 		if (NULL != grm_data)
 			snprintf(grm_data->grammar_id, MAX_GRAMMARID_LEN - 1, info);
 	}
 	else
-		printf("构建语法失败！%d\n", ecode);
-
+	{
+		sprintf(str,"构建语法失败！%d\n", ecode);
+	}
+	write_log(pFile,str);
 	return 0;
 }
 
@@ -95,7 +94,9 @@ int build_grammar(UserData *udata)
 
 	grm_file = fopen(GRM_FILE, "rb");	
 	if(NULL == grm_file) {
-		printf("打开\"%s\"文件失败！[%s]\n", GRM_FILE, strerror(errno));
+		bzero(str,sizeof(str));
+		sprintf(str,"打开\"%s\"文件失败！[%s]\n", GRM_FILE, strerror(errno));
+		write_log(pFile,str);
 		return -1; 
 	}
 
@@ -106,7 +107,9 @@ int build_grammar(UserData *udata)
 	grm_content = (char *)malloc(grm_cnt_len + 1);
 	if (NULL == grm_content)
 	{
-		printf("内存分配失败!\n");
+		bzero(str,sizeof(str));
+		sprintf(str,"内存分配失败!\n");
+		write_log(pFile,str);
 		fclose(grm_file);
 		grm_file = NULL;
 		return -1;
@@ -142,10 +145,16 @@ int update_lex_cb(int ecode, const char *info, void *udata)
 	}
 
 	if (MSP_SUCCESS == ecode)
-		printf("更新词典成功！\n");
+	{
+		bzero(str,sizeof(str));
+		sprintf(str,"更新词典成功！\n");
+	}	
 	else
-		printf("更新词典失败！%d\n", ecode);
-
+	{
+		bzero(str,sizeof(str));
+		sprintf(str,"更新词典失败！%d\n", ecode);
+	}
+	write_log(pFile,str);
 	return 0;
 }
 
@@ -200,7 +209,9 @@ void on_result(const char *result, char is_last)
 			if (g_result)
 				g_buffersize += BUFFER_SIZE;
 			else {
-				printf("mem alloc failed\n");
+				bzero(str,sizeof(str));
+				sprintf(str,"mem alloc failed\n");
+				write_log(pFile,str);
 				return;
 			}
 		}
@@ -219,15 +230,18 @@ void on_speech_begin()
 	g_result = (char*)malloc(BUFFER_SIZE);
 	g_buffersize = BUFFER_SIZE;
 	memset(g_result, 0, g_buffersize);
-
-	printf("Start Listening...\n");
+	bzero(str,sizeof(str));
+	sprintf(str,"Start Listening...\n");
+	write_log(pFile,str);
 }
 void on_speech_end(int reason)
 {
+	bzero(str,sizeof(str));
 	if (reason == END_REASON_VAD_DETECT)
-		printf("\nSpeaking done \n");
+		sprintf(str,"\nSpeaking done \n");
 	else
-		printf("\nRecognizer error %d\n", reason);
+		sprintf(str,"\nRecognizer error %d\n", reason);
+	write_log(pFile,str);
 }
 
 /* demo send audio data from a file */
@@ -252,7 +266,9 @@ static void demo_file(const char* audio_file, const char* session_begin_params)
 	f_pcm = fopen(audio_file, "rb");
 	if (NULL == f_pcm)
 	{
-		printf("\nopen [%s] failed! \n", audio_file);
+		bzero(str,sizeof(str));
+		sprintf(str"\nopen [%s] failed! \n", audio_file);
+		write_log(pFile,str);
 		goto iat_exit;
 	}
 
@@ -263,26 +279,34 @@ static void demo_file(const char* audio_file, const char* session_begin_params)
 	p_pcm = (char *)malloc(pcm_size);
 	if (NULL == p_pcm)
 	{
-		printf("\nout of memory! \n");
+		bzero(str,sizeof(str));
+		sprintf(str,"\nout of memory! \n");
+		write_log(pFile,str);
 		goto iat_exit;
 	}
 
 	read_size = fread((void *)p_pcm, 1, pcm_size, f_pcm);
 	if (read_size != pcm_size)
 	{
-		printf("\nread [%s] error!\n", audio_file);
+		bzero(str,sizeof(str));
+		sprintf(str,"\nread [%s] error!\n", audio_file);
+		write_log(pFile,str);
 		goto iat_exit;
 	}
 
 	errcode = sr_init(&iat, session_begin_params, SR_USER, &recnotifier);
 	if (errcode) {
-		printf("speech recognizer init failed : %d\n", errcode);
+		bzero(str,sizeof(str));
+		sprintf(str,"speech recognizer init failed : %d\n", errcode);
+		write_log(pFile,str);
 		goto iat_exit;
 	}
 
 	errcode = sr_start_listening(&iat);
 	if (errcode) {
-		printf("\nsr_start_listening failed! error code:%d\n", errcode);
+		bzero(str,sizeof(str));
+		sprintf(str,"\nsr_start_listening failed! error code:%d\n", errcode);
+		write_log(pFile,str);
 		goto iat_exit;
 	}
 
@@ -300,7 +324,9 @@ static void demo_file(const char* audio_file, const char* session_begin_params)
 
 		if (0 != ret)
 		{
-			printf("\nwrite audio data failed! error code:%d\n", ret);
+			bzero(str,sizeof(str));
+			sprintf(str,"\nwrite audio data failed! error code:%d\n", ret);
+			write_log(pFile,str);
 			goto iat_exit;
 		}
 
@@ -310,7 +336,9 @@ static void demo_file(const char* audio_file, const char* session_begin_params)
 
 	errcode = sr_stop_listening(&iat);
 	if (errcode) {
-		printf("\nsr_stop_listening failed! error code:%d \n", errcode);
+		bzero(str,sizeof(str));
+		sprintf(str,"\nsr_stop_listening failed! error code:%d \n", errcode);
+		write_log(pFile,str);
 		goto iat_exit;
 	}
 
@@ -346,19 +374,25 @@ static void demo_mic(const char* session_begin_params)
 
 	errcode = sr_init(&iat, session_begin_params, SR_MIC, &recnotifier);
 	if (errcode) {
-		printf("speech recognizer init failed\n");
+		bzero(str,sizeof(str));
+		sprintf(str,"speech recognizer init failed\n");
+		write_log(pFile,str);
 		return;
 	}
 	errcode = sr_start_listening(&iat);
 	if (errcode) {
-		printf("start listen failed %d\n", errcode);
+		bzero(str,sizeof(str));
+		sprintf(str,"start listen failed %d\n", errcode);
+		write_log(pFile,str);
 	}
 	/* demo 5 seconds recording */
 	while(i++ < 5)
 		sleep(1);
 	errcode = sr_stop_listening(&iat);
 	if (errcode) {
-		printf("stop listening failed %d\n", errcode);
+		bzero(str,sizeof(str));
+		sprintf(str,"stop listening failed %d\n", errcode);
+		write_log(pFile,str);
 	}
 
 	sr_uninit(&iat);
@@ -407,52 +441,67 @@ char *retString(char *string)
 
 	ret = MSPLogin(NULL, NULL, login_config); //第一个参数为用户名，第二个参数为密码，传NULL即可，第三个参数是登录参数
 	if (MSP_SUCCESS != ret) {
-		printf("登录失败：%d\n", ret);
+		bzero(str,sizeof(str));
+		sprintf(str,"登录失败：%d\n", ret);
+		write_log(pFile,str);
 		goto exit;
 	}
 
 	memset(&asr_data, 0, sizeof(UserData));
-	printf("构建离线识别语法网络...\n");
+	sprintf(str,"构建离线识别语法网络...\n");
+	write_log(pFile,str);
 	ret = build_grammar(&asr_data);  //第一次使用某语法进行识别，需要先构建语法网络，获取语法ID，之后使用此语法进行识别，无需再次构建
 	if (MSP_SUCCESS != ret) {
-		printf("构建语法调用失败！\n");
+		bzero(str,sizeof(str));
+		sprintf(str,"构建语法调用失败！\n");
+		write_log(pFile,str);
 		goto exit;
 	}
 	while (1 != asr_data.build_fini)
 		usleep(300 * 1000);
 	if (MSP_SUCCESS != asr_data.errcode)
 		goto exit;
-	printf("离线识别语法网络构建完成，开始识别...\n");	
+	bzero(str,sizeof(str));
+	sprintf(str,"离线识别语法网络构建完成，开始识别...\n");	
+	write_log(pFile,str);
 	ret = run_asr(&asr_data);
 	if (MSP_SUCCESS != ret) {
 		strcpy(string,"\0");
-		printf("离线语法识别出错: %d \n", ret);
+		bzero(str,sizeof(str));
+		sprintf(str,"离线语法识别出错: %d \n", ret);
+		write_log(pFile,str);
 		goto exit;
 	}
-
-	printf("更新离线语法词典...\n");
+	bzero(str,sizeof(str));
+	sprintf(str,"更新离线语法词典...\n");
+	write_log(pFile,str);
 	ret = update_lexicon(&asr_data);  //当语法词典槽中的词条需要更新时，调用QISRUpdateLexicon接口完成更新
 	if (MSP_SUCCESS != ret) {
 		strcpy(string,"\0");
-		printf("更新词典调用失败！\n");
+		bzero(str,sizeof(str));
+		sprintf(str,"更新词典调用失败！\n");
+		write_log(pFile,str);
 		goto exit;
 	}
 	while (1 != asr_data.update_fini)
 		usleep(300 * 1000);
 	if (MSP_SUCCESS != asr_data.errcode)
 		goto exit;
-	printf("更新离线语法词典完成，开始识别...\n");
+	bzero(str,sizeof(str));
+	sprintf(str,"更新离线语法词典完成，开始识别...\n");
+	write_log(pFile,str);
 	ret = run_asr(&asr_data);
 	string = get_result();
 	if (MSP_SUCCESS != ret || string == NULL) {
+		bzero(str,sizeof(str));
 		strcpy(string,"\0");
-		printf("离线语法识别出错: %d \n", ret);
+		sprintf(str,"离线语法识别出错: %d \n", ret);
+		write_log(pFile,str);
 		goto exit;
 	}
 
 exit:
 	MSPLogout();
-	printf("请按任意键退出...\n");
 	getchar();
 	return string;
 }
