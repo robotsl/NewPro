@@ -17,6 +17,7 @@
 #include "linuxrec.h"
 
 
+
 #define SR_DBGON 1
 #if SR_DBGON == 1
 #	define sr_dbg printf
