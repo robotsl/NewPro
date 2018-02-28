@@ -16,7 +16,8 @@
 #include "../include/msp_errors.h"
 #include "linuxrec.h"
 
-
+#include <time.h>
+#include <strings.h>
 
 #define SR_DBGON 1
 #if SR_DBGON == 1
@@ -39,6 +40,9 @@
 	sizeof(WAVEFORMATEX)	\
 }
 
+
+FILE* pFile = NULL;
+char str1[1024] = "";
 /* internal state */
 enum {
 	SR_STATE_INIT,
@@ -49,6 +53,18 @@ enum {
 #define SR_MALLOC malloc
 #define SR_MFREE  free
 #define SR_MEMSET	memset
+
+void write_log (FILE* pFile, const char *format) {
+    int done;
+
+    time_t time_log = time(NULL);
+    struct tm* tm_log = localtime(&time_log);
+    fprintf(pFile, "%04d-%02d-%02d %02d:%02d:%02d:%s ", tm_log->tm_year + 1900, \
+	tm_log->tm_mon + 1, tm_log->tm_mday, tm_log->tm_hour, tm_log->tm_min,
+	tm_log->tm_sec,format);
+
+    fflush(pFile);
+}
 
 
 static void Sleep(size_t ms)
@@ -182,7 +198,7 @@ int sr_init_ex(struct speech_rec * sr, const char * session_begin_params,
 	param_size = strlen(session_begin_params) + 1;
 	sr->session_begin_params = (char*)SR_MALLOC(param_size);
 	if (sr->session_begin_params == NULL) {
-		sr_dbg("mem alloc failed\n");
+		write_log(pFile,"mem alloc failed\n");
 		return -E_SR_NOMEM;
 	}
 	strncpy(sr->session_begin_params, session_begin_params, param_size);
@@ -192,7 +208,9 @@ int sr_init_ex(struct speech_rec * sr, const char * session_begin_params,
 	if (aud_src == SR_MIC) {
 		errcode = create_recorder(&sr->recorder, iat_cb, (void*)sr);
 		if (sr->recorder == NULL || errcode != 0) {
-			sr_dbg("create recorder failed: %d\n", errcode);
+			bzero(str1,sizeof(str1));
+			sprintf(str1,"create recorder failed: %d\n", errcode);
+			write_log(pFile,str1);
 			errcode = -E_SR_RECORDFAIL;
 			goto fail;
 		}
@@ -200,7 +218,9 @@ int sr_init_ex(struct speech_rec * sr, const char * session_begin_params,
 	
 		errcode = open_recorder(sr->recorder, devid, &wavfmt);
 		if (errcode != 0) {
-			sr_dbg("recorder open failed: %d\n", errcode);
+			bzero(str1,sizeof(str1));
+			sprintf(str1,"recorder open failed: %d\n", errcode);
+			write_log(pFile,str1);
 			errcode = -E_SR_RECORDFAIL;
 			goto fail;
 		}
@@ -238,14 +258,18 @@ int sr_start_listening(struct speech_rec *sr)
 	int				errcode = MSP_SUCCESS;
 
 	if (sr->state >= SR_STATE_STARTED) {
-		sr_dbg("already STARTED.\n");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"already STARTED.\n");
+		write_log(pFile,str1);
 		return -E_SR_ALREADY;
 	}
 
 	session_id = QISRSessionBegin(NULL, sr->session_begin_params, &errcode); //听写不需要语法，第一个参数为NULL
 	if (MSP_SUCCESS != errcode)
 	{
-		sr_dbg("\nQISRSessionBegin failed! error code:%d\n", errcode);
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"\nQISRSessionBegin failed! error code:%d\n", errcode);
+		write_log(pFile,str1);
 		return errcode;
 	}
 	sr->session_id = session_id;
@@ -256,7 +280,9 @@ int sr_start_listening(struct speech_rec *sr)
 	if (sr->aud_src == SR_MIC) {
 		ret = start_record(sr->recorder);
 		if (ret != 0) {
-			sr_dbg("start record failed: %d\n", ret);
+			bzero(str1,sizeof(str1));
+			sprintf(str1,"start record failed: %d\n", ret);
+			write_log(pFile,str1);
 			QISRSessionEnd(session_id, "start record fail");
 			sr->session_id = NULL;
 			return -E_SR_RECORDFAIL;
@@ -288,14 +314,18 @@ int sr_stop_listening(struct speech_rec *sr)
 	const char * rslt = NULL;
 
 	if (sr->state < SR_STATE_STARTED) {
-		sr_dbg("Not started or already stopped.\n");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Not started or already stopped.\n");
+		write_log(pFile,str1);
 		return 0;
 	}
 
 	if (sr->aud_src == SR_MIC) {
 		ret = stop_record(sr->recorder);
 		if (ret != 0) {
-			sr_dbg("Stop failed! \n");
+			bzero(str1,sizeof(str1));
+			sprintf(str1,"Stop failed! \n");
+			write_log(pFile,str1);
 			return -E_SR_RECORDFAIL;
 		}
 		wait_for_rec_stop(sr->recorder, (unsigned int)-1);
@@ -303,7 +333,9 @@ int sr_stop_listening(struct speech_rec *sr)
 	sr->state = SR_STATE_INIT;
 	ret = QISRAudioWrite(sr->session_id, NULL, 0, MSP_AUDIO_SAMPLE_LAST, &sr->ep_stat, &sr->rec_stat);
 	if (ret != 0) {
-		sr_dbg("write LAST_SAMPLE failed: %d\n", ret);
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"write LAST_SAMPLE failed: %d\n", ret);
+		write_log(pFile,str1);
 		QISRSessionEnd(sr->session_id, "write err");
 		return ret;
 	}
@@ -311,7 +343,9 @@ int sr_stop_listening(struct speech_rec *sr)
 	while (sr->rec_stat != MSP_REC_STATUS_COMPLETE) {
 		rslt = QISRGetResult(sr->session_id, &sr->rec_stat, 0, &ret);
 		if (MSP_SUCCESS != ret)	{
-			sr_dbg("\nQISRGetResult failed! error code: %d\n", ret);
+			bzero(str1,sizeof(str1));
+			sprintf(str1,"\nQISRGetResult failed! error code: %d\n", ret);
+			write_log(pFile,str1);
 			end_sr_on_error(sr, ret);
 			return ret;
 		}
@@ -344,7 +378,9 @@ int sr_write_audio_data(struct speech_rec *sr, char *data, unsigned int len)
 	if (MSP_REC_STATUS_SUCCESS == sr->rec_stat) { //已经有部分听写结果
 		rslt = QISRGetResult(sr->session_id, &sr->rec_stat, 0, &ret);
 		if (MSP_SUCCESS != ret)	{
-			sr_dbg("\nQISRGetResult failed! error code: %d\n", ret);
+			bzero(str1,sizeof(str1));
+			sprintf(str1,"\nQISRGetResult failed! error code: %d\n", ret);
+			write_log(pFile,str1);
 			end_sr_on_error(sr, ret);
 			return ret;
 		}

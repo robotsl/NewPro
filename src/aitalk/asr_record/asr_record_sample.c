@@ -12,9 +12,7 @@
 #include "../include/msp_errors.h"
 #include "speech_recognizer.h"
 
-#include <stdarg.h>
-#include <time.h>
-#include <strings.h>
+
 
 #define FRAME_LEN	640 
 #define	BUFFER_SIZE	4096
@@ -35,25 +33,15 @@ typedef struct _UserData {
 	char    grammar_id[MAX_GRAMMARID_LEN]; //保存语法构建返回的语法ID
 }UserData;
 
-FILE* pFile = NULL;
+extern FILE* pFile = NULL;
 //pFile = fopen("./record.log", "a+");
-char str1[1024] = "";
+extern char str1[1024] = "";
 
 int build_grammar(UserData *udata); //构建离线识别语法网络
 int update_lexicon(UserData *udata); //更新离线识别语法词典
 int run_asr(UserData *udata); //进行离线语法识别
 
-void write_log (FILE* pFile, const char *format) {
-    int done;
 
-    time_t time_log = time(NULL);
-    struct tm* tm_log = localtime(&time_log);
-    fprintf(pFile, "%04d-%02d-%02d %02d:%02d:%02d:%s ", tm_log->tm_year + 1900, \
-	tm_log->tm_mon + 1, tm_log->tm_mday, tm_log->tm_hour, tm_log->tm_min,
-	tm_log->tm_sec,format);
-
-    fflush(pFile);
-}
 
 int build_grm_cb(int ecode, const char *info, void *udata)
 {

@@ -18,9 +18,9 @@
 
 #define DBG_ON 1
 #if DBG_ON
-#define dbg  printf
+#define sr_dbg  printf
 #else
-#define dbg
+#define sr_dbg  printf
 #endif
 
 
@@ -114,39 +114,53 @@ static int set_hwparams(struct recorder * rec,  const WAVEFORMATEX *wavfmt,
 	snd_pcm_hw_params_alloca(&params);
 	err = snd_pcm_hw_params_any(handle, params);
 	if (err < 0) {
-		dbg("Broken configuration for this PCM");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Broken configuration for this PCM");
+		write_log(pFile,str1);
 		return err;
 	}
 	err = snd_pcm_hw_params_set_access(handle, params,
 					   SND_PCM_ACCESS_RW_INTERLEAVED);
 	if (err < 0) {
-		dbg("Access type not available");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Access type not available");
+		write_log(pFile,str1);
 		return err;
 	}
 	err = format_ms_to_alsa(wavfmt, &format);
 	if (err) {
-		dbg("Invalid format");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Invalid format");
+		write_log(pFile,str1);
 		return - EINVAL;
 	}
 	err = snd_pcm_hw_params_set_format(handle, params, format);
 	if (err < 0) {
-		dbg("Sample format non available");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Sample format non available");
+		write_log(pFile,str1);
 		return err;
 	}
 	err = snd_pcm_hw_params_set_channels(handle, params, wavfmt->nChannels);
 	if (err < 0) {
-		dbg("Channels count non available");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Channels count non available");
+		write_log(pFile,str1);
 		return err;
 	}
 
 	rate = wavfmt->nSamplesPerSec;
 	err = snd_pcm_hw_params_set_rate_near(handle, params, &rate, 0);
 	if (err < 0) {
-		dbg("Set rate failed");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Set rate failed");
+		write_log(pFile,str1);
 		return err;
 	}
 	if(rate != wavfmt->nSamplesPerSec) {
-		dbg("Rate mismatch");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Rate mismatch");
+		write_log(pFile,str1);
 		return -EINVAL;
 	}
 	if (rec->buffer_time == 0 || rec->period_time == 0) {
@@ -160,25 +174,33 @@ static int set_hwparams(struct recorder * rec,  const WAVEFORMATEX *wavfmt,
 	err = snd_pcm_hw_params_set_period_time_near(handle, params,
 					     &rec->period_time, 0);
 	if (err < 0) {
-		dbg("set period time fail");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"set period time fail");
+		write_log(pFile,str1);
 		return err;
 	}
 	err = snd_pcm_hw_params_set_buffer_time_near(handle, params,
 					     &rec->buffer_time, 0);
 	if (err < 0) {
-		dbg("set buffer time failed");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"set buffer time failed");
+		write_log(pFile,str1);
 		return err;
 	}
 	err = snd_pcm_hw_params_get_period_size(params, &size, 0);
 	if (err < 0) {
-		dbg("get period size fail");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"get period size fail");
+		write_log(pFile,str1);
 		return err;
 	}
 	rec->period_frames = size; 
 	err = snd_pcm_hw_params_get_buffer_size(params, &size);
 	if (size == rec->period_frames) {
-		dbg("Can't use period equal to buffer size (%lu == %lu)",
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Can't use period equal to buffer size (%lu == %lu)",\
 				      size, rec->period_frames);
+		write_log(pFile,str1);
 		return -EINVAL;
 	}
 	rec->buffer_frames = size;
@@ -187,7 +209,9 @@ static int set_hwparams(struct recorder * rec,  const WAVEFORMATEX *wavfmt,
 	/* set to driver */
 	err = snd_pcm_hw_params(handle, params);
 	if (err < 0) {
-		dbg("Unable to install hw params:");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"Unable to install hw params:");
+		write_log(pFile,str1);
 		return err;
 	}
 	return 0;
@@ -201,14 +225,18 @@ static int set_swparams(struct recorder * rec)
 	snd_pcm_sw_params_alloca(&swparams);
 	err = snd_pcm_sw_params_current(handle, swparams);
 	if (err < 0) {
-		dbg("get current sw para fail");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"get current sw para fail");
+		write_log(pFile,str1);
 		return err;
 	}
 
 	err = snd_pcm_sw_params_set_avail_min(handle, swparams, 
 						rec->period_frames);
 	if (err < 0) {
-		dbg("set avail min failed");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"set avail min failed");
+		write_log(pFile,str1);
 		return err;
 	}
 	/* set a value bigger than the buffer frames to prevent the auto start.
@@ -216,12 +244,16 @@ static int set_swparams(struct recorder * rec)
 	err = snd_pcm_sw_params_set_start_threshold(handle, swparams, 
 			rec->buffer_frames * 2);
 	if (err < 0) {
-		dbg("set start threshold fail");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"set start threshold fail");
+		write_log(pFile,str1);
 		return err;
 	}
 
 	if ( (err = snd_pcm_sw_params(handle, swparams)) < 0) {
-		dbg("unable to install sw params:");
+		bzero(str1,sizeof(str1));
+		sprintf(str1,"unable to install sw params:");
+		write_log(pFile,str1);
 		return err;
 	}
 	return 0;
@@ -253,13 +285,21 @@ static int xrun_recovery(snd_pcm_t *handle, int err)
 {
 	if (err == -EPIPE) {	/* over-run */
 		if (show_xrun)
-			printf("!!!!!!overrun happend!!!!!!");
+		{
+			bzero(str1,sizeof(str1));
+			sprintf(str1,"!!!!!!overrun happend!!!!!!");
+			write_log(pFile,str1);
+		}
 
 		err = snd_pcm_prepare(handle);
 		if (err < 0) {
 			if (show_xrun)
-				printf("Can't recovery from overrun,"
+			{
+				bzero(str1,sizeof(str1));
+				sprintf(str1,"Can't recovery from overrun,"\
 				"prepare failed: %s\n", snd_strerror(err));
+				write_log(pFile,str1);
+			}
 			return err;
 		}
 		return 0;
@@ -270,8 +310,12 @@ static int xrun_recovery(snd_pcm_t *handle, int err)
 			err = snd_pcm_prepare(handle);
 			if (err < 0) {
 				if (show_xrun)
-					printf("Can't recovery from suspend,"
+				{
+					bzero(str1,sizeof(str1));
+					sprintf(str1,"Can't recovery from suspend,"\
 					"prepare failed: %s\n", snd_strerror(err));
+					write_log(pFile,str1);
+				}
 				return err;
 			}
 		}
