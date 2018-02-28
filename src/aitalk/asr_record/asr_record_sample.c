@@ -32,12 +32,12 @@ typedef struct _UserData {
 }UserData;
 
 
-const char *get_audio_file(void); //选择进行离线语法识别的语音文件
+//const char *get_audio_file(void); //选择进行离线语法识别的语音文件
 int build_grammar(UserData *udata); //构建离线识别语法网络
 int update_lexicon(UserData *udata); //更新离线识别语法词典
 int run_asr(UserData *udata); //进行离线语法识别
 
-const char* get_audio_file(void)
+/*const char* get_audio_file(void)
 {
 	int key = 0;
 	while(key != 27) //按Esc则退出
@@ -63,11 +63,8 @@ const char* get_audio_file(void)
 	exit(0);
 	return NULL;
 }
+*/
 
-
-//TODO*************************************************************************************
-//*****************************************************************************************
-//*****************************************************************************************
 int build_grm_cb(int ecode, const char *info, void *udata)
 {
 	UserData *grm_data = (UserData *)udata;
@@ -174,12 +171,18 @@ int update_lexicon(UserData *udata)
 
 //***************************************************TODO*************************************************************************************
 //SHOWRESULT
-static void show_result(char *string, char is_over)
+/*static void *show_result(char *string, char is_over)
 {
 	printf("\r  lxblxblxb Result: [ %s ] lxblxblxblxb", string);
 	if(is_over)
 		putchar('\n');
 }
+*/
+static void *get_result()
+{
+	return g_result;
+}
+
 
 static char *g_result = NULL;
 static unsigned int g_buffersize = BUFFER_SIZE;
@@ -203,7 +206,7 @@ void on_result(const char *result, char is_last)
 		}
 		strncat(g_result, result, size);
 		strcat(g_result,'\0');
-		show_result(g_result, is_last);
+		//show_result(g_result, is_last);
 		//return g_result;
 	}
 }
@@ -394,7 +397,8 @@ int run_asr(UserData *udata)
 	return 0;
 }
 
-int main(int argc, char* argv[])
+//////注意，此处修改成函数形式
+char *retString(char *string)
 {
 	const char *login_config    = "appid = 5a38785e"; //登录参数
 	UserData asr_data; 
@@ -421,6 +425,7 @@ int main(int argc, char* argv[])
 	printf("离线识别语法网络构建完成，开始识别...\n");	
 	ret = run_asr(&asr_data);
 	if (MSP_SUCCESS != ret) {
+		strcpy(string,"\0");
 		printf("离线语法识别出错: %d \n", ret);
 		goto exit;
 	}
@@ -428,6 +433,7 @@ int main(int argc, char* argv[])
 	printf("更新离线语法词典...\n");
 	ret = update_lexicon(&asr_data);  //当语法词典槽中的词条需要更新时，调用QISRUpdateLexicon接口完成更新
 	if (MSP_SUCCESS != ret) {
+		strcpy(string,"\0");
 		printf("更新词典调用失败！\n");
 		goto exit;
 	}
@@ -437,7 +443,9 @@ int main(int argc, char* argv[])
 		goto exit;
 	printf("更新离线语法词典完成，开始识别...\n");
 	ret = run_asr(&asr_data);
-	if (MSP_SUCCESS != ret) {
+	string = get_result();
+	if (MSP_SUCCESS != ret || string == NULL) {
+		strcpy(string,"\0");
 		printf("离线语法识别出错: %d \n", ret);
 		goto exit;
 	}
@@ -446,5 +454,5 @@ exit:
 	MSPLogout();
 	printf("请按任意键退出...\n");
 	getchar();
-	return 0;
+	return string;
 }
