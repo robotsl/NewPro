@@ -15,7 +15,8 @@
 #include <pthread.h>
 #include "formats.h"
 #include "linuxrec.h"
-
+#include "speech_recognizer.h"
+ 
 #define DBG_ON 1
 #if DBG_ON
 #define sr_dbg  printf
