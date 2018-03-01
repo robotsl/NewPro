@@ -58,8 +58,8 @@ struct bufinfo {
 };
 #endif
 
-extern FILE* pFile = NULL;
-extern char str1[1024] = "";
+extern FILE* pFile;
+extern char str1[1024];
 
 
 static int show_xrun = 1;
