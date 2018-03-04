@@ -33,9 +33,9 @@ typedef struct _UserData {
 	char    grammar_id[MAX_GRAMMARID_LEN]; //保存语法构建返回的语法ID
 }UserData;
 
-extern FILE* pFile = NULL;
+extern FILE* pFile;
 //pFile = fopen("./record.log", "a+");
-extern char str1[1024] = "";
+extern char str1[1024];
 
 int build_grammar(UserData *udata); //构建离线识别语法网络
 int update_lexicon(UserData *udata); //更新离线识别语法词典
