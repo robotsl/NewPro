@@ -428,7 +428,6 @@ char *retString(char *string)
 		write_log(pFile,str1);
 		return 0;
 	}
-	getchar();//1
 	ret = MSPLogin(NULL, NULL, login_config); //第一个参数为用户名，第二个参数为密码，传NULL即可，第三个参数是登录参数
 	if (MSP_SUCCESS != ret) {
 		bzero(str1,sizeof(str1));
@@ -436,12 +435,10 @@ char *retString(char *string)
 		write_log(pFile,str1);
 		goto exit;
 	}
-	getchar();//2
 	memset(&asr_data, 0, sizeof(UserData));
 	bzero(str1,sizeof(str1));
 	sprintf(str1,"构建离线识别语法网络...\n");
 	printf("test, %s\n",str1);
-	getchar();
 	write_log(pFile,"构建离线识别语法网络...\n");
 	ret = build_grammar(&asr_data);  //第一次使用某语法进行识别，需要先构建语法网络，获取语法ID，之后使用此语法进行识别，无需再次构建
 	if (MSP_SUCCESS != ret) {
@@ -450,7 +447,6 @@ char *retString(char *string)
 		write_log(pFile,str1);
 		goto exit;
 	}
-	getchar();//3
 	while (1 != asr_data.build_fini)
 		usleep(300 * 1000);
 	if (MSP_SUCCESS != asr_data.errcode)
@@ -458,15 +454,6 @@ char *retString(char *string)
 	bzero(str1,sizeof(str1));
 	sprintf(str1,"离线识别语法网络构建完成，开始识别...\n");	
 	write_log(pFile,str1);
-	ret = run_asr(&asr_data);
-	if (MSP_SUCCESS != ret) {
-		strcpy(string,"\0");
-		bzero(str1,sizeof(str1));
-		sprintf(str1,"离线语法识别出错: %d \n", ret);
-		write_log(pFile,str1);
-		goto exit;
-	}
-	getchar();//4
 	bzero(str1,sizeof(str1));
 	sprintf(str1,"更新离线语法词典...\n");
 	write_log(pFile,str1);
@@ -478,7 +465,6 @@ char *retString(char *string)
 		write_log(pFile,str1);
 		goto exit;
 	}
-	getchar();//5
 	while (1 != asr_data.update_fini)
 		usleep(300 * 1000);
 	if (MSP_SUCCESS != asr_data.errcode)
@@ -486,7 +472,6 @@ char *retString(char *string)
 	bzero(str1,sizeof(str1));
 	sprintf(str1,"更新离线语法词典完成，开始识别...\n");
 	write_log(pFile,str1);
-	getchar();//6
 	ret = run_asr(&asr_data);
 	string = get_result();
 	if (MSP_SUCCESS != ret || string == NULL) {
@@ -499,6 +484,5 @@ char *retString(char *string)
 
 exit:
 	MSPLogout();
-	getchar();
 	return string;
 }
