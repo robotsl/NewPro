@@ -1,5 +1,5 @@
-#include<wiringPi.h>//包含wiringPi头文件
 #include <stdio.h>
 #include <string.h>
-  
-void ControlLEDS(int yellow,int red,int green,char *control); 
+#include <wiringPi.h> //包含wiringPi头文件
+
+void ControlLEDS(char *led, char *control);
