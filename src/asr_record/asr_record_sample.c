@@ -10,7 +10,8 @@
 #include "../include/qisr.h"
 #include "../include/msp_cmn.h"
 #include "../include/msp_errors.h"
-#include "speech_recognizer.h"
+#include "./speech_recognizer.h"
+#include "./asr_record_sample.h"
 
 
 
@@ -21,25 +22,6 @@
 #define MAX_GRAMMARID_LEN   (32)
 #define MAX_PARAMS_LEN      (1024)
 
-const char * ASR_RES_PATH        = "fo|res/asr/common.jet"; //离线语法识别资源路径
-const char * GRM_BUILD_PATH      = "res/asr/GrmBuilld"; //构建离线语法识别网络生成数据保存路径
-const char * GRM_FILE            = "call.bnf"; //构建离线识别语法网络所用的语法文件
-const char * LEX_NAME            = "contact"; //新离线识别语法的contact槽（语法文件为此示例中使用的call.bnf）
-
-
-static char *g_result = NULL;
-static unsigned int g_buffersize = BUFFER_SIZE;
-
-typedef struct _UserData {
-	int     build_fini; //标识语法构建是否完成
-	int     update_fini; //标识更新词典是否完成
-	int     errcode; //记录语法构建或更新词典回调错误码
-	char    grammar_id[MAX_GRAMMARID_LEN]; //保存语法构建返回的语法ID
-}UserData;
-
-extern FILE* pFile;
-//pFile = fopen("./record.log", "a+");
-extern char str1[1024];
 
 int build_grammar(UserData *udata); //构建离线识别语法网络
 int run_asr(UserData *udata); //进行离线语法识别

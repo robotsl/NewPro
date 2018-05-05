@@ -14,9 +14,8 @@ uint32 databuf;
 typedef struct dht11 {
   float RH;
   float TMP;
-} DHT;
+}DHT;
 
 uint8 readSensorData(void);
 DHT *readData(DHT *dht);
-void closeSensor();
-void openSensor();
+void ControlSensor(int opt);

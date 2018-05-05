@@ -1,36 +1,65 @@
 /*************************************************************************
 >FileName: MainControl.h
 >Author: liaoxingbin
->CreatedTime:2018å¹´04æœˆ10æ—¥ 19:53:16
+>CreatedTime:2018Äê04ÔÂ10ÈÕ 19:53:16
 ************************************************************************/
 
 #include <stdio.h>
 
-int local_command(char *operator, char *object) {
-  int opt = 0;
-  char *str[6] = {
-    "red_led",
-    "yellow_led",
-    "blue_led",
-    "radio",
-    "temp_sensor",
-    "fire_sensor"
-  } if (!strcmp(operator, "on")) opt = 0;
-  else if (!strcmp(operator, "off")) opt = 1;
-  else opt = 2;
-  switch (opt) {
-  case 1ï¼š /* value */
-      ControlLEDS(str[1], "on");
-      break; case 2:
-    ControlLEDS(str[2], "on");
-    break;
-  case 3:
-    ControlLEDS(str[3], "on");
-    break;
-  case 4:
-    ControlRadio();
-    break;
-  case 5;
+void split(char *str,OP *op){
+    if (!strcnmp("´ò¿ª",6)){
+        strcpy(op->operators,"on");
+    } else if (!strcnmp("¹Ø±Õ",6)){
+        strcpy(op->operators,"off");
+    }
+    if (!strncmp(substring(desc,str,5,strlen(str)),"ºìµÆ",6)){
+        strcpy(op->object,"red_led");
+    }
+    if (!strncmp(substring(desc,str,5,strlen(str)),"»ÆµÆ",6)){
+        strcpy(op->object,"ello_led");
+    }
+    if (!strncmp(substring(desc,str,5,strlen(str)),"ÂÌµÆ",6)){
+        strcpy(op->object,"blue_led");
+    }
+    if (!strncmp(substring(desc,str,5,strlen(str)),"ÒôÏì",6)){
+        strcpy(op->object,"radio");
+    }
+    if (!strncmp(substring(desc,str,5,strlen(str)),"ÎÂÊª¶È´«¸ĞÆ÷",18)){
+        strcpy(op->object,"temp");
+    }
+}
 
-  }
+char* substring(char *desc,const char *src,int start,int ends){
+    char *s = desc;
+    int i = start;
+    if (start > ends || start < 0 || ends < 0 || strlen(src) < start || strlen(src) < ends || src == NULL){
+        return NULL;
+    } else if (start > 0 && ends > start && strlen(src) > start && strlen(src) > ends){
+        while (i < ends && *(src + i) != '\0'){
+            *s++ = *(src + i++);
+        }
+        s = '\0';
+        return desc;
+    }
+}
+
+int local_command(char *operators, char *object) {
+  int opt = 0;
+  char *str[6] = {"red_led","yellow_led","blue_led","radio","temp_sensor","fire_sensor};
+  if (!strcmp(operators, "on")) opt = 0;
+  else if (!strcmp(operators, "off")) opt = 1;
+
+  if (!strcmp(object,"red_led"))
+    ControlLEDS("red_led",opt==0?"on":"off");
+  if (!strcmp(object,"yellow_led"))
+    ControlLEDS("yellow_led",opt==0?"on":"off");
+  if (!strcmp(object,"blue_led"))
+    ControlLEDS("blue_led",opt==0?"on":"off");
+
+  if (!strcmp(object,"radio"))
+    ControlRadio("radio",opt==0?"on":"off");
+  if (!strcmp(object,"temp_sensor"))
+    ControlTempSensor("temp_sensor",opt==0?"on":"off");
+  if (!strcmp(object,"fire_sensor"))
+    ControlFireSensor("fire_sensor",opt==0?"on":"off");
 }

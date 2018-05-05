@@ -9,6 +9,7 @@ int main() {
   int size, write_size;
   char buffer[MAX_BUFFER];
   int head, statues, operator;
+  DHT *dht = (DHT *)malloc(sizeof(DHT));
 
   if ((server_sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) //创建Socket
   {
@@ -78,6 +79,13 @@ int main() {
       head = buffer[0] - 48;
       operator= buffer[1] - 48;
       statues = buffer[2] - 48;
+      if (head == 8){
+        bzero(dht,sizeof(dht));
+        readData(dht);
+        sprintf(buffer,"%d%f%f",head,dht->RH,dht->TMP);
+        write(client_sockfd, buffer, sizeof(buffer));
+        continue;
+      }
       int ret = command(head, operator);
       sprintf(buffer, "%c%c%c%c", head, operator, ret);
       write(client_sockfd, buffer, sizeof(buffer));

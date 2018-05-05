@@ -6,6 +6,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include "./ControlTempSensor.h"
 
 char *opt[6] = {
   "red_led",
@@ -33,9 +34,6 @@ int command((int head,int operator)
         break;
   case 5:
         ret = local_command(opt[5],operator==1?"off","on");
-        break;
-  case 6:
-        ret = local_command(opt[6],operator==1?"off","on");
         break;
   case 7:
     // shutdown
