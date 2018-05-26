@@ -1,71 +1,83 @@
-../NewPro
+.
 ├── bin
 │   ├── call.bnf
+│   ├── call.bnf_back
+│   ├── log.txt
 │   ├── msc
 │   │   ├── 2340d471501dd45d068cbe1848ce505e
 │   │   │   ├── cfg.ldata
 │   │   │   └── kaitalk.dat
-│   │   ├── grm_lex.log
-│   │   ├── isr_local.log
-│   │   ├── isr.log
-│   │   ├── lgi.log
 │   │   ├── msc.cfg
-│   │   ├── msc.log
-│   │   ├── res
-│   │   │   └── asr
-│   │   │       ├── common.jet
-│   │   │       └── GrmBuilld
-│   │   │           ├── aybifwaa.d
-│   │   │           ├── bzvskdaa.d
-│   │   │           ├── call_16K
-│   │   │           ├── call.g
-│   │   │           ├── edhbxaea.d
-│   │   │           ├── hhnkdega.d
-│   │   │           ├── temp
-│   │   │           │   ├── aybifwaa.d
-│   │   │           │   ├── bzvskdaa.d
-│   │   │           │   ├── call_16K
-│   │   │           │   ├── call.g
-│   │   │           │   ├── commit
-│   │   │           │   ├── edhbxaea.d
-│   │   │           │   ├── hhnkdega.d
-│   │   │           │   ├── uikawbda.d
-│   │   │           │   └── wkufnlaa.d
-│   │   │           ├── uikawbda.d
-│   │   │           └── wkufnlaa.d
-│   │   └── waiter.log
+│   │   └── res
+│   │       └── asr
+│   │           ├── common.jet
+│   │           └── GrmBuilld
+│   │               ├── aybifwaa.d
+│   │               ├── bzvskdaa.d
+│   │               ├── call_16K
+│   │               ├── call.g
+│   │               ├── edhbxaea.d
+│   │               ├── hhnkdega.d
+│   │               ├── temp
+│   │               │   ├── aybifwaa.d
+│   │               │   ├── bzvskdaa.d
+│   │               │   ├── call_16K
+│   │               │   ├── call.g
+│   │               │   ├── edhbxaea.d
+│   │               │   ├── hhnkdega.d
+│   │               │   ├── uikawbda.d
+│   │               │   └── wkufnlaa.d
+│   │               ├── uikawbda.d
+│   │               └── wkufnlaa.d
+│   ├── record.log
+│   ├── result.txt
+│   ├── result.xml
+│   ├── test
 │   └── wav
 │       ├── ddhgdw.pcm
 │       └── ddhghlj.pcm
-├── devices
-│   ├── led_blue.c
-│   ├── led_red.c
-│   └── led_yellow.c
+├── new 1.txt
 ├── README
-└── src
-    ├── aitalk
-    │   ├── asr_record
-    │   │   ├── 64bit_make.sh
-    │   │   ├── asr_record_sample.c
-    │   │   ├── formats.h
-    │   │   ├── linuxrec.c
-    │   │   ├── linuxrec.h
-    │   │   ├── Makefile
-    │   │   ├── speech_recognizer.c
-    │   │   └── speech_recognizer.h
-    │   ├── include
-    │   │   ├── msp_cmn.h
-    │   │   ├── msp_errors.h
-    │   │   ├── msp_types.h
-    │   │   └── qisr.h
-    │   └── libs
-    │       └── x64
-    │           └── libmsc.so
-    ├── ControlLEDS_1.c
-    ├── ControlLEDS_1.h
-    ├── dht11_1.c
-    ├── dht11_1.h
-    ├── MainControl.c
-    └── WakeUpRecorder.c
+├── server
+│   ├── ControlLEDS.c
+│   ├── ControlLEDS.h
+│   ├── ControlRadio.c
+│   ├── ControlRadio.h
+│   ├── ControlTempSensor.c
+│   ├── ControlTempSensor.h
+│   ├── MainControl.c
+│   ├── MainControl.h
+│   ├── Makefile
+│   ├── server.c
+│   └── server.h
+├── src
+│   ├── asr_record_sample.c
+│   ├── asr_record_sample.h
+│   ├── ControlLEDS.c
+│   ├── ControlLEDS.h
+│   ├── ControlRadio.c
+│   ├── ControlRadio.h
+│   ├── ControlTempSensor.c
+│   ├── ControlTempSensor.h
+│   ├── formats.h
+│   ├── include
+│   │   ├── msp_cmn.h
+│   │   ├── msp_errors.h
+│   │   ├── msp_types.h
+│   │   └── qisr.h
+│   ├── libs
+│   │   └── x64
+│   │       └── libmsc.so
+│   ├── linuxrec.c
+│   ├── linuxrec.h
+│   ├── MainControl.c
+│   ├── MainControl.h
+│   ├── Makefile
+│   ├── speech_recognizer.c
+│   ├── speech_recognizer.h
+│   ├── WakeUpRecorder.c
+│   └── WakeUpRecorder.h
+├── test
+└── test.c
 
-15 directories, 53 files
+13 directories, 67 files
