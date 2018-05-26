@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>打开红灯</rawtext>
+  <confidence>65</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>dialpre|contact</focus>
+    <confidence>77|59</confidence>
+    <object>
+      <dialpre id="10001">打开</dialpre>
+      <contact id="0">红灯</contact>
+    </object>
+  </result>
+</nlp>

@@ -1,3 +1,4 @@
-#include <wiringPi.h>//包含wiringPi头文件
-#include <unistd.h>
-char* wake_string(char *instr);
+#ifndef __WAKEUPRECORDER_H__
+#define __WAKEUPRECORDER_H__
+void *wake_string(char *instr);
+#endif

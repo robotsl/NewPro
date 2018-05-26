@@ -1,22 +1,19 @@
 #common makefile header
 
-DIR_INC = /home/pi/NewPro/src/aitalk/include
-DIR_BIN = /home/pi/NewPro/bin
-DIR_LIB = /home/pi/NewPro/src/aitalk/libs
+DIR_INC = /home/pi/Downloads/NewPro/src/include
+DIR_BIN = /home/pi/Downloads/NewPro/bin
+DIR_LIB = /home/pi/Downloads/NewPro/src/libs
 
 
-TARGET	= test
+TARGET	= MainControl
 BIN_TARGET = $(DIR_BIN)/$(TARGET)
 
-CROSS_COMPILE = 
+#CROSS_COMPILE = arm-linux-gnueabihf-
 CFLAGS = -g -Wall -I$(DIR_INC)
 
-ifdef LINUX64
 LDFLAGS := -L$(DIR_LIB)/x64
-else
-LDFLAGS := -L$(DIR_LIB)/x86 
-endif
-LDFLAGS += -lmsc -lrt -ldl -lpthread -lasound
+
+LDFLAGS += -lmsc -lrt -ldl -lpthread -lasound -lwiringPi -lxml2
 
 OBJECTS := $(patsubst %.c,%.o,$(wildcard *.c))
 
@@ -29,5 +26,3 @@ clean:
 	@rm -f *.o $(BIN_TARGET)
 
 .PHONY:clean
-
-#common makefile foot
